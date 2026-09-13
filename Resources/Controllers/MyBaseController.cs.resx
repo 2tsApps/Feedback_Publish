@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions" xml:space="preserve">
+    <value>Akce</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Aktivní</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Přidat</value>
+  </data>
+  <data name="AddApplication" xml:space="preserve">
+    <value>Přidat aplikaci</value>
+  </data>
+  <data name="AddedToFaq" xml:space="preserve">
+    <value>Přidáno do FAQ</value>
+  </data>
+  <data name="AddFaq" xml:space="preserve">
+    <value>Přidat FAQ</value>
+  </data>
+  <data name="AddRating" xml:space="preserve">
+    <value>Přidat hodnocení</value>
+  </data>
+  <data name="AddResolver" xml:space="preserve">
+    <value>Přidat řešitele</value>
+  </data>
+  <data name="AddToFaq" xml:space="preserve">
+    <value>Přidat do FAQ</value>
+  </data>
+  <data name="AddToFaqButNotLinkedWarning" xml:space="preserve">
+    <value>Tato odpověď je označena „Přidat do FAQ“, ale zatím není navázána na žádnou FAQ položku.</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="AliasMustNotBeLlm" xml:space="preserve">
+    <value>Alias nesmí být `_llm`.</value>
+  </data>
+  <data name="AllApps" xml:space="preserve">
+    <value>Všechny aplikace</value>
+  </data>
+  <data name="AllFeedback" xml:space="preserve">
+    <value>Všechny feedbacky</value>
+  </data>
+  <data name="AllStatuses" xml:space="preserve">
+    <value>Všechny stavy</value>
+  </data>
+  <data name="AllTypes" xml:space="preserve">
+    <value>Všechny typy</value>
+  </data>
+  <data name="AlreadyImportedFiles" xml:space="preserve">
+    <value>Již importované soubory</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Odpověď</value>
+  </data>
+  <data name="AnswerNotSufficientRequestManualReview" xml:space="preserve">
+    <value>Odpověď nestačí – požádat o ruční kontrolu</value>
+  </data>
+  <data name="AnswerShort" xml:space="preserve">
+    <value>O:</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="ApplicationDetails" xml:space="preserve">
+    <value>Detail aplikace</value>
+  </data>
+  <data name="ApplicationRatings" xml:space="preserve">
+    <value>Hodnocení aplikací</value>
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="Apps" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="AppUserId" xml:space="preserve">
+    <value>Uživatel</value>
+  </data>
+  <data name="AverageRating" xml:space="preserve">
+    <value>Průměrné hodnocení</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="BackToDetails" xml:space="preserve">
+    <value>Zpět na detail</value>
+  </data>
+  <data name="BackToEdit" xml:space="preserve">
+    <value>Zpět na úpravu</value>
+  </data>
+  <data name="BeforeSubmittingNewFeedbackInfoTemplate" xml:space="preserve">
+    <value>&lt;strong&gt;Před odesláním nového feedbacku:&lt;/strong&gt; prosím zkontrolujte &lt;a href="{0}"&gt;existující feedbacky&lt;/a&gt; a &lt;a href="{1}"&gt;FAQ&lt;/a&gt;. Vaše otázka nebo požadavek už mohl být dříve odeslán nebo zodpovězen.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>BETA</value>
+  </data>
+  <data name="BetaTitle" xml:space="preserve">
+    <value>Beta: používejte opatrně; funkce se mohou měnit.</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Zrušit</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Potvrdit smazání</value>
+  </data>
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
+    <value>Opravdu chcete smazat</value>
+  </data>
+  <data name="ThisApplication" xml:space="preserve">
+    <value>tuto aplikaci</value>
+  </data>
+  <data name="ThisActionCannotBeUndone" xml:space="preserve">
+    <value>Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="CharactersRemainingTemplate" xml:space="preserve">
+    <value>Zbývá {0} znaků</value>
+  </data>
+  <data name="ConfirmDeleteAllVersions" xml:space="preserve">
+    <value>Smazat všechny verze?</value>
+  </data>
+  <data name="ConfirmDeleteApplication" xml:space="preserve">
+    <value>Opravdu chcete smazat tuto aplikaci? Tuto akci nelze vrátit zpět.</value>
+  </data>
+  <data name="ConfirmDeleteFaq" xml:space="preserve">
+    <value>Opravdu chcete smazat tuto FAQ položku?</value>
+  </data>
+  <data name="ConfirmDeleteFeedback" xml:space="preserve">
+    <value>Opravdu smazat tento feedback?</value>
+  </data>
+  <data name="ConfirmDeleteResponse" xml:space="preserve">
+    <value>Smazat tuto odpověď?</value>
+  </data>
+  <data name="ConfirmRemoveResolver" xml:space="preserve">
+    <value>Odebrat řešitele z této aplikace?</value>
+  </data>
+  <data name="ConfirmRollbackToVersionTemplate" xml:space="preserve">
+    <value>Vrátit zpět na verzi {0}? Novější verze budou smazány.</value>
+  </data>
+  <data name="ConfirmUpdateLinkedFaq" xml:space="preserve">
+    <value>Aktualizovat navázanou FAQ položku upravenou odpovědí?</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Vytvořeno</value>
+  </data>
+  <data name="CurrentDebugAlias" xml:space="preserve">
+    <value>Aktuální debug alias</value>
+  </data>
+  <data name="CurrentFaqAnswer" xml:space="preserve">
+    <value>Aktuální odpověď ve FAQ</value>
+  </data>
+  <data name="CurrentResolvers" xml:space="preserve">
+    <value>Aktuální řešitelé</value>
+  </data>
+  <data name="Dataset" xml:space="preserve">
+    <value>Dataset</value>
+  </data>
+  <data name="DatasetId" xml:space="preserve">
+    <value>DatasetId</value>
+  </data>
+  <data name="DebugAliasForTesting" xml:space="preserve">
+    <value>Alias pro ladění:</value>
+  </data>
+  <data name="DebugAliasSettings" xml:space="preserve">
+    <value>Nastavení Debug Aliasu</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Smazat</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Smazat vše</value>
+  </data>
+  <data name="DeleteApplication" xml:space="preserve">
+    <value>Smazat aplikaci</value>
+  </data>
+  <data name="DeleteApplicationWarningTemplate" xml:space="preserve">
+    <value>Tímto trvale smažete aplikaci {0} a všechny související feedbacky a FAQ položky.</value>
+  </data>
+  <data name="DeleteDatasetForApp" xml:space="preserve">
+    <value>Smazat dataset pro aplikaci</value>
+  </data>
+  <data name="DeleteFaq" xml:space="preserve">
+    <value>Smazat FAQ</value>
+  </data>
+  <data name="DeleteFaqWarning" xml:space="preserve">
+    <value>Tímto trvale smažete níže uvedenou FAQ položku.</value>
+  </data>
+  <data name="DeleteFeedback" xml:space="preserve">
+    <value>Smazat feedback</value>
+  </data>
+  <data name="DeleteFeedbackWarningTemplate" xml:space="preserve">
+    <value>Tímto trvale smažete váš feedback {0}.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Distribution" xml:space="preserve">
+    <value>Rozložení</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Upravit</value>
+  </data>
+  <data name="Edited" xml:space="preserve">
+    <value>upraveno</value>
+  </data>
+  <data name="EditApplication" xml:space="preserve">
+    <value>Upravit aplikaci</value>
+  </data>
+  <data name="EditFaq" xml:space="preserve">
+    <value>Upravit FAQ</value>
+  </data>
+  <data name="EditFeedback" xml:space="preserve">
+    <value>Upravit feedback</value>
+  </data>
+  <data name="EditResponse" xml:space="preserve">
+    <value>Upravit odpověď</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="ErrorDevModeInfoHtml" xml:space="preserve">
+    <value>&lt;h3&gt;Vývojářský režim&lt;/h3&gt;&lt;p&gt;Přepnutí do prostředí &lt;strong&gt;Development&lt;/strong&gt; zobrazí více detailů o chybě.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Pro nasazené aplikace by nemělo být prostředí Development povolené.&lt;/strong&gt; Může to zobrazit citlivé informace koncovým uživatelům.&lt;/p&gt;</value>
+  </data>
+  <data name="ErrorOccurredProcessingRequest" xml:space="preserve">
+    <value>Při zpracování požadavku došlo k chybě.</value>
+  </data>
+  <data name="ExistingResponses" xml:space="preserve">
+    <value>Existující odpovědi</value>
+  </data>
+  <data name="Faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="FaqReorderFailed" xml:space="preserve">
+    <value>Uložení pořadí FAQ se nepodařilo.</value>
+  </data>
+  <data name="FaqReorderTip" xml:space="preserve">
+    <value>Tip: FAQ lze přeskládat přetažením za ikonu ☰.</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackDetails" xml:space="preserve">
+    <value>Detail feedbacku</value>
+  </data>
+  <data name="FeedbackStatusNew" xml:space="preserve">
+    <value>Nové</value>
+  </data>
+  <data name="FeedbackStatusResolved" xml:space="preserve">
+    <value>Vyřešeno</value>
+  </data>
+  <data name="FeedbackTypeAria" xml:space="preserve">
+    <value>Typ feedbacku</value>
+  </data>
+  <data name="FeedbackTypeBug" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="FeedbackTypeQuestion" xml:space="preserve">
+    <value>Dotaz</value>
+  </data>
+  <data name="FeedbackTypeSuggestion" xml:space="preserve">
+    <value>Námět</value>
+  </data>
+  <data name="FeedbackWithResponsesCannotBeDeleted" xml:space="preserve">
+    <value>Feedback s odpověďmi nelze smazat.</value>
+  </data>
+  <data name="FileDocxMdTxt" xml:space="preserve">
+    <value>Soubor (.docx, .md, .txt)</value>
+  </data>
+  <data name="FilterApplications" xml:space="preserve">
+    <value>Filtrovat aplikace…</value>
+  </data>
+  <data name="FilterByApp" xml:space="preserve">
+    <value>Filtrovat podle aplikace:</value>
+  </data>
+  <data name="FilterByStatus" xml:space="preserve">
+    <value>Filtrovat podle stavu:</value>
+  </data>
+  <data name="FilterByType" xml:space="preserve">
+    <value>Filtrovat podle typu:</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>pro</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Hash</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Skrýt</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>DOMŮ</value>
+  </data>
+  <data name="HomeIntro" xml:space="preserve">
+    <value>Tato aplikace umožňuje posílat feedback, hodnotit aplikace, procházet FAQ a prohlížet feedback ostatních.</value>
+  </data>
+  <data name="IdenticalFeedbackExists" xml:space="preserve">
+    <value>Stejný feedback už existuje a nelze jej odeslat znovu.</value>
+  </data>
+  <data name="IfFileWithSameNameExists" xml:space="preserve">
+    <value>Pokud už soubor se stejným názvem existuje</value>
+  </data>
+  <data name="ImInterested" xml:space="preserve">
+    <value>Mám zájem</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Importovat</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>Importováno</value>
+  </data>
+  <data name="ImportKnowledge" xml:space="preserve">
+    <value>Import znalostí</value>
+  </data>
+  <data name="ImportKnowledgeLlm" xml:space="preserve">
+    <value>Import znalostí (LLM)</value>
+  </data>
+  <data name="ImportModeAppend" xml:space="preserve">
+    <value>Připojit (vytvoří novou verzi na základě obsahu)</value>
+  </data>
+  <data name="ImportModeReplace" xml:space="preserve">
+    <value>Nahradit (smaže starý a importuje znovu)</value>
+  </data>
+  <data name="ImportSources" xml:space="preserve">
+    <value>Import podkladů</value>
+  </data>
+  <data name="InQueue" xml:space="preserve">
+    <value>Ve frontě:</value>
+  </data>
+  <data name="InterestCountTitle" xml:space="preserve">
+    <value>Počet uživatelů se zájmem o tento feedback</value>
+  </data>
+  <data name="LlmOffline" xml:space="preserve">
+    <value>LLM offline</value>
+  </data>
+  <data name="LlmServiceUnavailableMessage" xml:space="preserve">
+    <value>Služba LLM je nedostupná (pravděpodobně neběží llama-server.exe). Spusťte ji a zkuste to znovu.</value>
+  </data>
+  <data name="LlmServiceUnavailableTitle" xml:space="preserve">
+    <value>LLM služba je nedostupná (pravděpodobně neběží llama-server.exe)</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Načíst</value>
+  </data>
+  <data name="MakePrimary" xml:space="preserve">
+    <value>Nastavit jako primární</value>
+  </data>
+  <data name="ManageResolvers" xml:space="preserve">
+    <value>Spravovat řešitele</value>
+  </data>
+  <data name="MarkAsResolved" xml:space="preserve">
+    <value>Označit jako vyřešené</value>
+  </data>
+  <data name="MoveItem" xml:space="preserve">
+    <value>Přesunout položku</value>
+  </data>
+  <data name="MyFeedback" xml:space="preserve">
+    <value>Moje feedbacky</value>
+  </data>
+  <data name="MyRatings" xml:space="preserve">
+    <value>Moje hodnocení</value>
+  </data>
+  <data name="NewBugsTitle" xml:space="preserve">
+    <value>Nové chyby</value>
+  </data>
+  <data name="NewQuestionsTitle" xml:space="preserve">
+    <value>Nové otázky</value>
+  </data>
+  <data name="NewSuggestionsTitle" xml:space="preserve">
+    <value>Nové náměty</value>
+  </data>
+  <data name="NoFaqEntriesFound" xml:space="preserve">
+    <value>Nebyly nalezeny žádné FAQ položky.</value>
+  </data>
+  <data name="NoFaqEntriesYet" xml:space="preserve">
+    <value>Zatím žádné FAQ položky.</value>
+  </data>
+  <data name="NoFeedbackYet" xml:space="preserve">
+    <value>Zatím žádný feedback.</value>
+  </data>
+  <data name="NoFilesImportedYet" xml:space="preserve">
+    <value>Pro vybranou aplikaci zatím nebyly importovány žádné soubory.</value>
+  </data>
+  <data name="NoIds" xml:space="preserve">
+    <value>Nejsou předána žádná ID.</value>
+  </data>
+  <data name="NoRatings" xml:space="preserve">
+    <value>bez hodnocení</value>
+  </data>
+  <data name="NoRatingsYetForThisApp" xml:space="preserve">
+    <value>Tato aplikace zatím nemá žádná hodnocení.</value>
+  </data>
+  <data name="OnlyQuestionsCanBeAutoAnswered" xml:space="preserve">
+    <value>Automaticky lze odpovědět pouze na otázky.</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="OpenApplication" xml:space="preserve">
+    <value>Otevřít aplikaci</value>
+  </data>
+  <data name="OrTypeAlias" xml:space="preserve">
+    <value>Nebo zadejte alias</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Strana</value>
+  </data>
+  <data name="PleaseSelectApplicationFirst" xml:space="preserve">
+    <value>Nejprve vyberte aplikaci.</value>
+  </data>
+  <data name="Primary" xml:space="preserve">
+    <value>Primární</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Ochrana soukromí</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Zásady ochrany soukromí</value>
+  </data>
+  <data name="PrivacyPolicyContent" xml:space="preserve">
+    <value>&lt;h1&gt;Zásady ochrany soukromí&lt;/h1&gt;&lt;section&gt;&lt;h2&gt;Úvod&lt;/h2&gt;&lt;p&gt;Tato stránka vysvětluje, jak shromažďujeme, používáme a chráníme vaše osobní údaje při používání aplikace Feedback.&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;Jaké informace shromažďujeme&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Feedback a komentáře, které odešlete&lt;/li&gt;&lt;li&gt;Hodnocení, která poskytnete&lt;/li&gt;&lt;li&gt;Základní informace o uživateli (např. uživatelské jméno nebo e‑mail, pokud je relevantní)&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;Jak informace používáme&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Pro zobrazení a správu feedbacku a hodnocení&lt;/li&gt;&lt;li&gt;Ke zlepšení služeb a uživatelské zkušenosti&lt;/li&gt;&lt;li&gt;K reakci na dotazy a požadavky&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;Sdílení dat a přístup&lt;/h2&gt;&lt;p&gt;K vašim datům mají přístup pouze oprávněné osoby a nejsou sdílena s třetími stranami, pokud to nevyžaduje zákon.&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;Vaše práva&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Můžete požádat o zobrazení, úpravu nebo smazání osobních dat.&lt;/li&gt;&lt;li&gt;Kontaktujte nás na adrese &lt;a href="mailto:support@example.com"&gt;support@example.com&lt;/a&gt; pro žádosti související se soukromím.&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Dotaz</value>
+  </data>
+  <data name="QuestionShort" xml:space="preserve">
+    <value>D:</value>
+  </data>
+  <data name="RagAdmin" xml:space="preserve">
+    <value>RAG Admin</value>
+  </data>
+  <data name="RagAdminDeletedChunksTemplate" xml:space="preserve">
+    <value>Smazáno chunků: {0}.</value>
+  </data>
+  <data name="RagAdminIngestDoneTemplate" xml:space="preserve">
+    <value>Import dokončen. Vloženo chunků: {0}.</value>
+  </data>
+  <data name="RagImportFileDeletedAllVersionsTemplate" xml:space="preserve">
+    <value>Soubor '{0}' byl smazán (všechny verze).</value>
+  </data>
+  <data name="RagImportFileImportedTemplate" xml:space="preserve">
+    <value>Soubor '{0}' importován. Importováno chunků: {1}.</value>
+  </data>
+  <data name="RagImportFileReplacedTemplate" xml:space="preserve">
+    <value>Soubor '{0}' byl nahrazen. Importováno chunků: {1}.</value>
+  </data>
+  <data name="RagImportFileTooLargeTemplate" xml:space="preserve">
+    <value>Soubor je příliš velký. Maximum je {0} MB.</value>
+  </data>
+  <data name="RagImportNoFileSelected" xml:space="preserve">
+    <value>Nebyl vybrán žádný soubor.</value>
+  </data>
+  <data name="RagImportRollbackDoneTemplate" xml:space="preserve">
+    <value>Rollback dokončen pro '{0}' na verzi {1}.</value>
+  </data>
+  <data name="RagImportRollbackNothingToDelete" xml:space="preserve">
+    <value>Rollback: nic ke smazání.</value>
+  </data>
+  <data name="RateApplication" xml:space="preserve">
+    <value>Ohodnotit aplikaci</value>
+  </data>
+  <data name="RatedAt" xml:space="preserve">
+    <value>Hodnoceno</value>
+  </data>
+  <data name="RateThisApp" xml:space="preserve">
+    <value>Ohodnotit tuto aplikaci</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Hodnocení</value>
+  </data>
+  <data name="Ratings" xml:space="preserve">
+    <value>Hodnocení</value>
+  </data>
+  <data name="RatingsCount" xml:space="preserve">
+    <value>hodnocení</value>
+  </data>
+  <data name="RatingsSummary" xml:space="preserve">
+    <value>Souhrn hodnocení</value>
+  </data>
+  <data name="RealAlias" xml:space="preserve">
+    <value>Skutečný alias</value>
+  </data>
+  <data name="RecentFeedback" xml:space="preserve">
+    <value>Poslední feedbacky</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Odebrat</value>
+  </data>
+  <data name="RequestId" xml:space="preserve">
+    <value>ID požadavku</value>
+  </data>
+  <data name="RequestManualReview" xml:space="preserve">
+    <value>Požádat o ruční kontrolu</value>
+  </data>
+  <data name="Resolved" xml:space="preserve">
+    <value>Vyřešeno</value>
+  </data>
+  <data name="Respond" xml:space="preserve">
+    <value>Odpovědět</value>
+  </data>
+  <data name="RespondToFeedback" xml:space="preserve">
+    <value>Odpovědět na feedback</value>
+  </data>
+  <data name="Responses" xml:space="preserve">
+    <value>Odpovědi</value>
+  </data>
+  <data name="SendToHelpdesk" xml:space="preserve">
+    <value>Poslat na Helpdesk</value>
+  </data>
+  <data name="HelpdeskCreateFailed" xml:space="preserve">
+    <value>Ticket na Helpdesk se nepodařilo vytvořit.</value>
+  </data>
+  <data name="HelpdeskInvalidResponse" xml:space="preserve">
+    <value>Helpdesk odpověděl neočekávaným způsobem a nepodařilo se získat číslo SR.</value>
+  </data>
+  <data name="HelpdeskNotConfigured" xml:space="preserve">
+    <value>Integrace na Helpdesk není nakonfigurovaná.</value>
+  </data>
+  <data name="HelpdeskTicketCreatedTemplate" xml:space="preserve">
+    <value>Helpdesk ticket byl vytvořen: {0}.</value>
+  </data>
+  <data name="HelpdeskUnexpectedError" xml:space="preserve">
+    <value>Při odesílání na Helpdesk došlo k neočekávané chybě.</value>
+  </data>
+  <data name="RetryAutoAnswer" xml:space="preserve">
+    <value>Zkusit znovu automatickou odpověď (LLM)</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Vrátit zpět</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Uložit</value>
+  </data>
+  <data name="SaveRating" xml:space="preserve">
+    <value>Uložit hodnocení</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>-- vybrat --</value>
+  </data>
+  <data name="SelectApplication" xml:space="preserve">
+    <value>-- Vyberte aplikaci --</value>
+  </data>
+  <data name="SelectAppToRateIntro" xml:space="preserve">
+    <value>Vyberte aplikaci k ohodnocení. Budete přesměrováni na stránku hodnocení.</value>
+  </data>
+  <data name="SelectType" xml:space="preserve">
+    <value>-- Vyberte typ --</value>
+  </data>
+  <data name="SendResponse" xml:space="preserve">
+    <value>Odeslat odpověď</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Nastavit</value>
+  </data>
+  <data name="SimilarFeedbacksFound" xml:space="preserve">
+    <value>Nalezeny podobné feedbacky:</value>
+  </data>
+  <data name="SimilarFeedbacksFoundValidation" xml:space="preserve">
+    <value>Nalezeny podobné feedbacky. Prosím zkontrolujte je před odesláním. Pokud chcete přesto odeslat, klikněte na „Přesto odeslat“.</value>
+  </data>
+  <data name="SourcePath" xml:space="preserve">
+    <value>SourcePath</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Stav</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Předmět</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="SubmitAnyway" xml:space="preserve">
+    <value>Přesto odeslat</value>
+  </data>
+  <data name="SubmitFeedback" xml:space="preserve">
+    <value>Odeslat feedback</value>
+  </data>
+  <data name="SubmitNewFeedback" xml:space="preserve">
+    <value>Odeslat nový feedback</value>
+  </data>
+  <data name="SubmittingFeedbackLoadingMessage" xml:space="preserve">
+    <value>Odesílám feedback… Ukládám jej a kontroluji podobné vyřešené položky. U otázek mohu také vygenerovat odpověď s pomocí AI. Může to chvíli trvat.</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>(neznámý)</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Aktualizováno</value>
+  </data>
+  <data name="UpdateLinkedFaqWithThisAnswer" xml:space="preserve">
+    <value>Aktualizovat navázanou FAQ položku touto odpovědí</value>
+  </data>
+  <data name="UploadFileAndImport" xml:space="preserve">
+    <value>Nahrát soubor a importovat</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Verze</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Zobrazit</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Varování:</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Vítejte</value>
+  </data>
+  <data name="WelcomeToApp" xml:space="preserve">
+    <value>Vítejte v aplikaci Feedback</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Pracuji…</value>
+  </data>
+  <data name="YourRating" xml:space="preserve">
+    <value>Vaše hodnocení</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Zkopírováno</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Zkopírovat</value>
+  </data>
+  <data name="LongDescription" xml:space="preserve">
+    <value>Rozšířený popis</value>
+  </data>
+  <data name="AllFeedbackShort" xml:space="preserve">
+    <value>Všechny</value>
+  </data>
+  <data name="AppsShort" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="FaqShort" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="ImportKnowledgeShort" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="MyFeedbackShort" xml:space="preserve">
+    <value>Moje</value>
+  </data>
+  <data name="MyRatingsShort" xml:space="preserve">
+    <value>Hodnocení</value>
+  </data>
+  <data name="RagAdminShort" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="TestTitle" xml:space="preserve">
+    <value>Testovací prostředí. Aplikace slouží k ověřování funkcí a může obsahovat chyby.</value>
+  </data>
+  <data name="CommentNotificationSubject" xml:space="preserve">
+    <value>Nový komentář k feedbacku</value>
+  </data>
+  <data name="CommentNotificationBodyApplication" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="CommentNotificationBodyAuthor" xml:space="preserve">
+    <value>Autor komentáře</value>
+  </data>
+  <data name="CommentNotificationBodyTime" xml:space="preserve">
+    <value>Čas komentáře</value>
+  </data>
+  <data name="CommentNotificationBodyText" xml:space="preserve">
+    <value>Text komentáře</value>
+  </data>
+  <data name="CommentNotificationBodyDetails" xml:space="preserve">
+    <value>Detail feedbacku</value>
+  </data>
+  <data name="CommentNotificationBodyUnknownApplication" xml:space="preserve">
+    <value>(neznamá aplikace)</value>
+  </data>
+  <data name="ResolverNotificationSubjectPrimary" xml:space="preserve">
+    <value>[BUG - PRIMÁRNÍ]</value>
+  </data>
+  <data name="ResolverNotificationSubjectTeam" xml:space="preserve">
+    <value>[BUG - TÝM]</value>
+  </data>
+  <data name="ResolverNotificationBodyPrimaryResponsibility" xml:space="preserve">
+    <value>Tato chyba je primárně zodpovědností vaší aplikace.</value>
+  </data>
+  <data name="ResolverNotificationBodyTeamResponsibility" xml:space="preserve">
+    <value>Tato chyba se nachází v aplikaci vaší kolegy/kolegy.</value>
+  </data>
+  <data name="ResolverNotificationBodyApplication" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="ResolverNotificationBodySubject" xml:space="preserve">
+    <value>Předmět</value>
+  </data>
+  <data name="ResolverNotificationBodyDescription" xml:space="preserve">
+    <value>Popis</value>
+  </data>
+  <data name="ResolverNotificationBodyCreated" xml:space="preserve">
+    <value>Vytvořeno</value>
+  </data>
+  <data name="ResolverNotificationBodyButton" xml:space="preserve">
+    <value>Otevřít podrobnosti feedbacku</value>
+  </data>
+  <data name="AppUserResolvedNotificationSubject" xml:space="preserve">
+    <value>vyřešeno</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyHello" xml:space="preserve">
+    <value>Dobrý den,</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyMarked" xml:space="preserve">
+    <value>Váš záznam ({0}) byl označen jako vyřešený.</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyApplication" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodySubject" xml:space="preserve">
+    <value>Předmět</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyResolved" xml:space="preserve">
+    <value>Vyřešeno</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyButton" xml:space="preserve">
+    <value>Otevřít podrobnosti feedbacku</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyPersists" xml:space="preserve">
+    <value>Pokud problém přetrvává, odpovězte prosím v aplikaci nebo znovu otevřete záznam.</value>
+  </data>
+  <data name="InterestedUserResolvedNotificationBodyMarked" xml:space="preserve">
+    <value>Feedback, na kterém vás zajímáte, byl označen jako vyřešený.</value>
+  </data>
+  <data name="InterestedUserResolvedNotificationBodyStillExperiencing" xml:space="preserve">
+    <value>Pokud tento problém stále zažíváte, odpovězte prosím v aplikaci nebo znovu otevřete záznam.</value>
+  </data>
+  <data name="ShortDescription" xml:space="preserve">
+    <value>Krátký popis</value>
+  </data>
+  <data name="Discussion" xml:space="preserve">
+    <value>Diskuze</value>
+  </data>
+  <data name="CommentPlaceholder" xml:space="preserve">
+    <value>Napište komentář...</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Přidat komentář</value>
+  </data>
+  <data name="CommentEditWindow" xml:space="preserve">
+    <value>Čas pro úpravu/smazání</value>
+  </data>
+  <data name="NoComments" xml:space="preserve">
+    <value>Zatím bez komentářů.</value>
+  </data>
+  <data name="ContinueWithoutWaiting" xml:space="preserve">
+    <value>Pokračovat v aplikaci bez čekání</value>
+  </data>
+  <data name="AutoAnswerReadyBadgeTitle" xml:space="preserve">
+    <value>Nové automatické odpovědi</value>
+  </data>
+  <data name="AutoAnswerReadySubject" xml:space="preserve">
+    <value>Automatická odpověď je připravena</value>
+  </data>
+  <data name="AutoAnswerReadyBodyIntro" xml:space="preserve">
+    <value>Vaše otázka byla automaticky zodpovězena. Otevřete detail pro zobrazení odpovědi.</value>
+  </data>
+  <data name="AutoAnswerReadyBodyApplication" xml:space="preserve">
+    <value>Aplikace</value>
+  </data>
+  <data name="AutoAnswerReadyBodySubject" xml:space="preserve">
+    <value>Předmět</value>
+  </data>
+  <data name="AutoAnswerReadyBodyCreated" xml:space="preserve">
+    <value>Vytvořeno</value>
+  </data>
+  <data name="AutoAnswerReadyBodyButton" xml:space="preserve">
+    <value>Otevřít detail feedbacku</value>
+  </data>
+  <data name="AiLlmJob" xml:space="preserve">
+    <value>AI-LLM job</value>
+  </data>
+  <data name="LlmJobStatusQueued" xml:space="preserve">
+    <value>Fronta</value>
+  </data>
+  <data name="LlmJobStatusRunning" xml:space="preserve">
+    <value>Zpracovává se…</value>
+  </data>
+  <data name="LlmJobSince" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="LlmJobStatusCompletedNoAnswer" xml:space="preserve">
+    <value>Dokončeno bez odpovědi</value>
+  </data>
+  <data name="LlmJobStatusAnswerFound" xml:space="preserve">
+    <value>Odpověď nalezena</value>
+  </data>
+  <data name="LlmJobStatusCompletedPropagating" xml:space="preserve">
+    <value>Dokončeno, odpověď se ještě propisuje</value>
+  </data>
+  <data name="LlmJobStatusFailed" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="LlmJobStatusCanceled" xml:space="preserve">
+    <value>Zrušeno</value>
+  </data>
+  <data name="LlmJobs" xml:space="preserve">
+    <value>LLM jobs</value>
+  </data>
+  <data name="LlmJobsHelp" xml:space="preserve">
+    <value>Queued and running jobs are persisted in the database and can be canceled here.</value>
+  </data>
+  <data name="LlmJobsCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="LlmJobsRequester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="LlmJobsQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="LlmJobsStarted" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="LlmJobsFinished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ConfirmCancelLlmJob" xml:space="preserve">
+    <value>Cancel this job?</value>
+  </data>
+  <data name="NoLlmJobs" xml:space="preserve">
+    <value>No LLM jobs.</value>
+  </data>
+</root>

@@ -1,0 +1,4263 @@
+[
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/doclinks",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/doclinks",
+    "osName": "DOCLINKS",
+    "title": "Přidání přílohy přes WS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/doclinks"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigetuser",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigetuser",
+    "osName": "CDUIGETUSER",
+    "authApp": "CDUIGETUSER_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigetuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapivendormstr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapivendormstr",
+    "osName": "MXAPIVENDORMSTR",
+    "authApp": "MXAPIVENDORMSTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapivendormstr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_amcrewt",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_amcrewt",
+    "osName": "REP_AMCREWT",
+    "authApp": "AMCREWT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_amcrewt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxobjectcfg",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxobjectcfg",
+    "osName": "MXOBJECTCFG",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxobjectcfg"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicollection",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicollection",
+    "osName": "MXAPICOLLECTION",
+    "authApp": "MXAPICOLLECTION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicollection"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoschange",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoschange",
+    "osName": "MXOSCHANGE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoschange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxproblem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxproblem",
+    "osName": "MXPROBLEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiorganization",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiorganization",
+    "osName": "MXAPIORGANIZATION",
+    "authApp": "MXAPIORGANIZATION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiorganization"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxmaxuser",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxmaxuser",
+    "osName": "MXMAXUSER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxmaxuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiglconfigure",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiglconfigure",
+    "osName": "MXAPIGLCONFIGURE",
+    "authApp": "MXAPIGLCONFIGURE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiglconfigure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiaddress",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiaddress",
+    "osName": "MXAPIADDRESS",
+    "authApp": "MXAPIADDRESS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiaddress"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduinumdomain",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduinumdomain",
+    "osName": "CDUINUMDOMAIN",
+    "authApp": "CDUINUMDOMAIN_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduinumdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxim",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxim",
+    "osName": "MXIM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxim"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapistoreloc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapistoreloc",
+    "osName": "MXAPISTORELOC",
+    "authApp": "MXAPISTORELOC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapistoreloc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisr",
+    "osName": "MXAPISR",
+    "authApp": "MXAPISR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pmpchange",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pmpchange",
+    "osName": "REP_PMPCHANGE",
+    "authApp": "CHANGE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pmpchange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduifavitem",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduifavitem",
+    "osName": "CDUIFAVITEM",
+    "authApp": "CDUIFAVITEM_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduifavitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslccommonprops",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslccommonprops",
+    "osName": "MXOSLCCOMMONPROPS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslccommonprops"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_sr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_sr",
+    "osName": "SRM_SR",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_sr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocationmeter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocationmeter",
+    "osName": "MXAPILOCATIONMETER",
+    "authApp": "MXAPILOCATIONMETER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocationmeter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/sscpersoncustacclst",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/sscpersoncustacclst",
+    "osName": "SSCPERSONCUSTACCLST",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/sscpersoncustacclst"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinventory",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinventory",
+    "osName": "MXINVENTORY",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinventory"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxdomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxdomain",
+    "osName": "MXDOMAIN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxendpoint",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxendpoint",
+    "osName": "MXENDPOINT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxendpoint"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisrguestpolicy",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisrguestpolicy",
+    "osName": "MXAPISRGUESTPOLICY",
+    "authApp": "MXAPISRGUESTPOLICY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisrguestpolicy"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvres",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvres",
+    "osName": "MXAPIINVRES",
+    "authApp": "MXAPIINVRES",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvres"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxnotification",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxnotification",
+    "osName": "MXNOTIFICATION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxnotification"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcprovider",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcprovider",
+    "osName": "MXOSLCPROVIDER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcprovider"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwfassignment",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwfassignment",
+    "osName": "MXAPIWFASSIGNMENT",
+    "authApp": "MXAPIWFASSIGNMENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwfassignment"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpmcomsr711",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpmcomsr711",
+    "osName": "MXPMCOMSR711",
+    "title": "Definice požadavku na zpracování, verze 7.1.1",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpmcomsr711"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcresource",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcresource",
+    "osName": "MXOSLCRESOURCE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcresource"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinspresult",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinspresult",
+    "osName": "MXAPIINSPRESULT",
+    "authApp": "MXAPIINSPRESULT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinspresult"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapitkclass",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapitkclass",
+    "osName": "MXAPITKCLASS",
+    "authApp": "MXAPITKCLASS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapitkclass"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_reporting",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_reporting",
+    "osName": "REP_REPORTING",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_reporting"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqcitemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqcitemplate",
+    "osName": "DWQCITEMPLATE",
+    "title": "Deployer's Workbench query structure for promotion scopes",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqcitemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_user",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_user",
+    "osName": "REP_USER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_user"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiqueryrecstate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiqueryrecstate",
+    "osName": "MXAPIQUERYRECSTATE",
+    "authApp": "MXAPIQUERYRECSTATE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiqueryrecstate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/iptelpohot",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/iptelpohot",
+    "osName": "IPTELPOHOT",
+    "title": "Pohotovosti pro IP Tel",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/iptelpohot"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgwf",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgwf",
+    "osName": "ITGWF",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgwf"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpm_workorder",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpm_workorder",
+    "osName": "MXPM_WORKORDER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpm_workorder"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduidocinfo",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduidocinfo",
+    "osName": "CDUIDOCINFO",
+    "authApp": "CDUIDOCINFO_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduidocinfo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspsr",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspsr",
+    "osName": "REP_PLUSPSR",
+    "title": "Podrobnosti požadavku na službu (PLUSP)",
+    "authApp": "PLUSPSR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspso",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspso",
+    "osName": "REP_PLUSPSO",
+    "authApp": "PLUSPSO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspso"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmoffering",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmoffering",
+    "osName": "CDUISRMOFFERING",
+    "authApp": "CDUISRMOFFERING_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmoffering"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapivendor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapivendor",
+    "osName": "MXAPIVENDOR",
+    "authApp": "MXAPIVENDOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapivendor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_class",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_class",
+    "osName": "REP_CLASS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_class"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocancestor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocancestor",
+    "osName": "MXAPILOCANCESTOR",
+    "authApp": "MXAPILOCANCESTOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocancestor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimeterdata",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimeterdata",
+    "osName": "MXAPIMETERDATA",
+    "authApp": "MXAPIMETERDATA",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimeterdata"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiassetattribute",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiassetattribute",
+    "osName": "MXAPIASSETATTRIBUTE",
+    "authApp": "MXAPIASSETATTRIBUTE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiassetattribute"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiworkcenterfiles",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiworkcenterfiles",
+    "osName": "MXAPIWORKCENTERFILES",
+    "authApp": "MXAPIWORKCENTERFILES",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiworkcenterfiles"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcraft",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcraft",
+    "osName": "MXCRAFT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcraft"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisrguestdomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisrguestdomain",
+    "osName": "MXAPISRGUESTDOMAIN",
+    "authApp": "MXAPISRGUESTDOMAIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisrguestdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_lictrack",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_lictrack",
+    "osName": "REP_LICTRACK",
+    "authApp": "LICTRACK",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_lictrack"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinspformstatus",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinspformstatus",
+    "osName": "MXAPIINSPFORMSTATUS",
+    "authApp": "MXAPIINSPFORMSTATUS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinspformstatus"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisolution",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisolution",
+    "osName": "MXAPISOLUTION",
+    "authApp": "MXAPISOLUTION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisolution"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_amcrew",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_amcrew",
+    "osName": "REP_AMCREW",
+    "authApp": "AMCREW",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_amcrew"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqcdmcitypes",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqcdmcitypes",
+    "osName": "DWQCDMCITYPES",
+    "title": "Deployer's Workbench CDMCITYPES query",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqcdmcitypes"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapircvrotitm",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapircvrotitm",
+    "osName": "MXAPIRCVROTITM",
+    "authApp": "MXAPIRCVROTITM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapircvrotitm"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimsghub",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimsghub",
+    "osName": "MXAPIMSGHUB",
+    "authApp": "MXAPIMSGHUB",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimsghub"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_maxuserdet",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_maxuserdet",
+    "osName": "SRM_MAXUSERDET",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_maxuserdet"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/worel_vlny",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/worel_vlny",
+    "osName": "WOREL_VLNY",
+    "title": "Schvalovací vlny pro migrace",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/worel_vlny"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxnmr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxnmr",
+    "osName": "MXNMR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxnmr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiapppropcfg",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiapppropcfg",
+    "osName": "MXAPIAPPPROPCFG",
+    "authApp": "MXAPIAPPPROPCFG",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiapppropcfg"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiincident",
+    "osName": "MXAPIINCIDENT",
+    "authApp": "MXAPIINCIDENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_favtktemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_favtktemplate",
+    "osName": "SRM_FAVTKTEMPLATE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_favtktemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduichatopsinfo",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduichatopsinfo",
+    "osName": "CDUICHATOPSINFO",
+    "authApp": "CDUICHATOPSINFO_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduichatopsinfo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/sccdasset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/sccdasset",
+    "osName": "SCCDASSET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/sccdasset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduusers",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduusers",
+    "osName": "CDUUSERS",
+    "title": "Uživatelé pro synchronizaci s CDU",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduusers"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwo",
+    "osName": "MXAPIWO",
+    "authApp": "MXAPIWO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_bulletinboard",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_bulletinboard",
+    "osName": "SRM_BULLETINBOARD",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_bulletinboard"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/jiratktupd",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/jiratktupd",
+    "osName": "JIRATKTUPD",
+    "title": "Update ticketu z JIRA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/jiratktupd"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_condm",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_condm",
+    "osName": "REP_CONDM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_condm"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxservitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxservitem",
+    "osName": "MXSERVITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxservitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduicommtemplate",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduicommtemplate",
+    "osName": "CDUICOMMTEMPLATE",
+    "authApp": "CDUICOMMTEMPLATE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduicommtemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwsregistry",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwsregistry",
+    "osName": "MXWSREGISTRY",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwsregistry"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiuserquery",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiuserquery",
+    "osName": "MXAPIUSERQUERY",
+    "authApp": "MXAPIUSERQUERY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiuserquery"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduibookmark",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduibookmark",
+    "osName": "CDUIBOOKMARK",
+    "authApp": "CDUIBOOKMARK_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduibookmark"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxomp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxomp",
+    "osName": "MXOMP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxomp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxintobject",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxintobject",
+    "osName": "MXINTOBJECT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxintobject"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelspol",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelspol",
+    "osName": "PMSCRELSPOL",
+    "title": "ObjectStructure forPMSCRELSPOL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelspol"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpr",
+    "osName": "MXPR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/snowrequest",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/snowrequest",
+    "osName": "SNOWREQUEST",
+    "title": "SNOW intergrace INFRA request",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/snowrequest"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpo",
+    "osName": "MXPO",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgworeleaseworklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgworeleaseworklog",
+    "osName": "ITGWORELEASEWORKLOG",
+    "title": "Poznámky z WORELEASE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgworeleaseworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcinteraction",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcinteraction",
+    "osName": "MXOSLCINTERACTION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcinteraction"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicraft",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicraft",
+    "osName": "MXAPICRAFT",
+    "authApp": "MXAPICRAFT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicraft"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisyndomain",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisyndomain",
+    "osName": "CDUISYNDOMAIN",
+    "authApp": "CDUISYNDOMAIN_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisyndomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiworklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiworklog",
+    "osName": "MXAPIWORKLOG",
+    "authApp": "MXAPIWORKLOG",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpluspcustomer",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpluspcustomer",
+    "osName": "MXPLUSPCUSTOMER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpluspcustomer"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_security",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_security",
+    "osName": "REP_SECURITY",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_security"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmbulletin",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmbulletin",
+    "osName": "CDUISRMBULLETIN",
+    "authApp": "CDUISRMBULLETIN_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmbulletin"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiweathergroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiweathergroup",
+    "osName": "MXAPIWEATHERGROUP",
+    "authApp": "MXAPIWEATHERGROUP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiweathergroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiworklog",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiworklog",
+    "osName": "CDUIWORKLOG",
+    "authApp": "CDUIWORKLOG_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqci",
+    "osName": "DWQCI",
+    "title": "Deployer's Workbench CI query structure",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiamcrewt",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiamcrewt",
+    "osName": "MXAPIAMCREWT",
+    "authApp": "MXAPIAMCREWT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiamcrewt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxauthci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxauthci",
+    "osName": "MXAUTHCI",
+    "authApp": "MXAUTHCI",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxauthci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelprava",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelprava",
+    "osName": "PMSCRELPRAVA",
+    "title": "ObjectStructure forPMSCRELPRAVA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelprava"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxjsonmapping",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxjsonmapping",
+    "osName": "MXJSONMAPPING",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxjsonmapping"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhmeasureunit",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhmeasureunit",
+    "osName": "MHMEASUREUNIT",
+    "authApp": "MHMEASUREUNIT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhmeasureunit"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxbimassetwo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxbimassetwo",
+    "osName": "MXBIMASSETWO",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxbimassetwo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimaxattribute",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimaxattribute",
+    "osName": "CDUIMAXATTRIBUTE",
+    "authApp": "CDUIMAXATTRIBUTE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimaxattribute"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpc",
+    "osName": "MXPC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhpm",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhpm",
+    "osName": "MHPM",
+    "authApp": "MHPM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhpm"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduicommlog",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduicommlog",
+    "osName": "CDUICOMMLOG",
+    "authApp": "CDUICOMMLOG_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduicommlog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvbal",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvbal",
+    "osName": "MXINVBAL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvbal"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwodetail",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwodetail",
+    "osName": "MXAPIWODETAIL",
+    "authApp": "MXAPIWODETAIL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwodetail"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapitoolitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapitoolitem",
+    "osName": "MXAPITOOLITEM",
+    "authApp": "MXAPITOOLITEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapitoolitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapigroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapigroup",
+    "osName": "MXAPIGROUP",
+    "authApp": "MXAPIGROUP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapigroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwosdataset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwosdataset",
+    "osName": "MXAPIWOSDATASET",
+    "authApp": "MXAPIWOSDATASET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwosdataset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlaunchpoint",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlaunchpoint",
+    "osName": "MXLAUNCHPOINT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlaunchpoint"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxsolution",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxsolution",
+    "osName": "MXSOLUTION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxsolution"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxosci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxosci",
+    "osName": "MXOSCI",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxosci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelrep",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelrep",
+    "osName": "PMSCRELREP",
+    "title": "ObjectStructure forPMSCRELREP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelrep"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxosincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxosincident",
+    "osName": "MXOSINCIDENT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxosincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwosrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwosrvad",
+    "osName": "MXAPIWOSRVAD",
+    "authApp": "MXAPIWOSRVAD",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwosrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiwochange",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiwochange",
+    "osName": "CDUIWOCHANGE",
+    "authApp": "CDUIWOCHANGE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiwochange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiitem",
+    "osName": "MXAPIITEM",
+    "authApp": "MXAPIITEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapictemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapictemplate",
+    "osName": "MXAPICTEMPLATE",
+    "authApp": "MXAPICTEMPLATE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapictemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimapmanager",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimapmanager",
+    "osName": "MXAPIMAPMANAGER",
+    "authApp": "MXAPIMAPMANAGER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimapmanager"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapifailurelist",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapifailurelist",
+    "osName": "MXAPIFAILURELIST",
+    "authApp": "MXAPIFAILURELIST",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapifailurelist"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwotaskrelation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwotaskrelation",
+    "osName": "MXWOTASKRELATION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwotaskrelation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiosevent",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiosevent",
+    "osName": "MXAPIOSEVENT",
+    "authApp": "MXAPIOSEVENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiosevent"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocsys",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocsys",
+    "osName": "MXAPILOCSYS",
+    "authApp": "MXAPILOCSYS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocsys"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwohier",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwohier",
+    "osName": "MXAPIWOHIER",
+    "authApp": "MXAPIWOHIER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwohier"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiassignment",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiassignment",
+    "osName": "MXAPIASSIGNMENT",
+    "authApp": "MXAPIASSIGNMENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiassignment"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxbimfilter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxbimfilter",
+    "osName": "MXBIMFILTER",
+    "authApp": "BIMPROJECT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxbimfilter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiallproducts",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiallproducts",
+    "osName": "MXAPIALLPRODUCTS",
+    "authApp": "MXAPIALLPRODUCTS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiallproducts"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/snowsr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/snowsr",
+    "osName": "SNOWSR",
+    "title": "SNOW intergrace service request",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/snowsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisite",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisite",
+    "osName": "CDUISITE",
+    "authApp": "CDUISITE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisite"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxifacecontrol",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxifacecontrol",
+    "osName": "MXIFACECONTROL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxifacecontrol"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiweatherorg",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiweatherorg",
+    "osName": "MXAPIWEATHERORG",
+    "authApp": "MXAPIWEATHERORG",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiweatherorg"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspproblem",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspproblem",
+    "osName": "REP_PLUSPPROBLEM",
+    "title": "Podrobnosti problému (PLUSP)",
+    "authApp": "PLUSPPROB",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/sccdoslcperson",
+    "defaultPageSize": 20,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/sccdoslcperson",
+    "osName": "SCCDOSLCPERSON",
+    "authApp": "PERSON",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/sccdoslcperson"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/snowchange",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/snowchange",
+    "osName": "SNOWCHANGE",
+    "title": "SNOW intergrace migrace(change)",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/snowchange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_srcount",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_srcount",
+    "osName": "SRM_SRCOUNT",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_srcount"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhmeasurepoint",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhmeasurepoint",
+    "osName": "MHMEASUREPOINT",
+    "authApp": "MHMEASUREPOINT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhmeasurepoint"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiprop",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiprop",
+    "osName": "MXAPIPROP",
+    "authApp": "MXAPIPROP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiprop"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcdomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcdomain",
+    "osName": "MXOSLCDOMAIN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxsrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxsrvad",
+    "osName": "MXSRVAD",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxsrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/snowincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/snowincident",
+    "osName": "SNOWINCIDENT",
+    "title": "SNOW integrace Incident",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/snowincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiproj",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiproj",
+    "osName": "MXAPIPROJ",
+    "authApp": "MXAPIPROJ",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiproj"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiaction",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiaction",
+    "osName": "MXAPIACTION",
+    "authApp": "MXAPIACTION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiaction"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvuse",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvuse",
+    "osName": "MXAPIINVUSE",
+    "authApp": "MXAPIINVUSE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvuse"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicontract",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicontract",
+    "osName": "MXAPICONTRACT",
+    "authApp": "MXAPICONTRACT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicontract"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilabel",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilabel",
+    "osName": "MXAPILABEL",
+    "authApp": "MXAPILABEL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilabel"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwfprocess",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwfprocess",
+    "osName": "MXAPIWFPROCESS",
+    "authApp": "MXAPIWFPROCESS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwfprocess"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxscript",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxscript",
+    "osName": "MXSCRIPT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxscript"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_assetsched",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_assetsched",
+    "osName": "REP_ASSETSCHED",
+    "authApp": "ASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_assetsched"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_srcreate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_srcreate",
+    "osName": "SRM_SRCREATE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_srcreate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspassetactivi",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspassetactivi",
+    "osName": "REP_PLUSPASSETACTIVI",
+    "authApp": "PLUSPASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspassetactivi"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqclassification",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqclassification",
+    "osName": "DWQCLASSIFICATION",
+    "title": "Deployer's Workbench Query Classification Definition",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqclassification"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgincident",
+    "osName": "ITGINCIDENT",
+    "title": "Definice incidentu",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiworkview",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiworkview",
+    "osName": "MXAPIWORKVIEW",
+    "authApp": "MXAPIWORKVIEW",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiworkview"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxsr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxsr",
+    "osName": "MXSR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiscoringrange",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiscoringrange",
+    "osName": "MXAPISCORINGRANGE",
+    "authApp": "MXAPISCORINGRANGE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiscoringrange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxmeterdata",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxmeterdata",
+    "osName": "MXMETERDATA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxmeterdata"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspwoplanact",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspwoplanact",
+    "osName": "REP_PLUSPWOPLANACT",
+    "authApp": "PLUSPWO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspwoplanact"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/arcmaxrelationship",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/arcmaxrelationship",
+    "osName": "ARCMAXRELATIONSHIP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/arcmaxrelationship"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiworkcenter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiworkcenter",
+    "osName": "MXAPIWORKCENTER",
+    "authApp": "MXAPIWORKCENTER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiworkcenter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiincident",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiincident",
+    "osName": "CDUIINCIDENT",
+    "authApp": "CDUIINCIDENT_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisrguestemail",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisrguestemail",
+    "osName": "MXAPISRGUESTEMAIL",
+    "authApp": "MXAPISRGUESTEMAIL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisrguestemail"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspassetsched",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspassetsched",
+    "osName": "REP_PLUSPASSETSCHED",
+    "title": "Podrobnosti časového plánu aktiva (PLUSP)",
+    "authApp": "PLUSPASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspassetsched"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscreldev",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscreldev",
+    "osName": "PMSCRELDEV",
+    "title": "ObjectStructure forPMSCRELDEV",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscreldev"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipc",
+    "osName": "MXAPIPC",
+    "authApp": "MXAPIPC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapikpimain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapikpimain",
+    "osName": "MXAPIKPIMAIN",
+    "authApp": "MXAPIKPIMAIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapikpimain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelinfo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelinfo",
+    "osName": "PMSCRELINFO",
+    "title": "ObjectStructure forPMSCRELINFO",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelinfo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxglcomp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxglcomp",
+    "osName": "MXGLCOMP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxglcomp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipo",
+    "osName": "MXAPIPO",
+    "authApp": "MXAPIPO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipm",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipm",
+    "osName": "MXAPIPM",
+    "authApp": "MXAPIPM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipm"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipr",
+    "osName": "MXAPIPR",
+    "authApp": "MXAPIPR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiproblem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiproblem",
+    "osName": "MXAPIPROBLEM",
+    "authApp": "MXAPIPROBLEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxjsonresnp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxjsonresnp",
+    "osName": "MXJSONRESNP",
+    "authApp": "JSONRES",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxjsonresnp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinsight",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinsight",
+    "osName": "MXAPIINSIGHT",
+    "authApp": "MXAPIINSIGHT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinsight"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhwo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhwo",
+    "osName": "MHWO",
+    "authApp": "MHWO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhwo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_assethierarchy",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_assethierarchy",
+    "osName": "REP_ASSETHIERARCHY",
+    "authApp": "ASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_assethierarchy"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_inccount",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_inccount",
+    "osName": "SRM_INCCOUNT",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_inccount"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiweatherzone",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiweatherzone",
+    "osName": "MXAPIWEATHERZONE",
+    "authApp": "MXAPIWEATHERZONE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiweatherzone"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_inspectionresult",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_inspectionresult",
+    "osName": "REP_INSPECTIONRESULT",
+    "authApp": "INSPECTOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_inspectionresult"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_stktool",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_stktool",
+    "osName": "REP_STKTOOL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_stktool"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/oslcincident",
+    "defaultPageSize": 20,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/oslcincident",
+    "osName": "OSLCINCIDENT",
+    "authApp": "INCIDENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/oslcincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgproblem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgproblem",
+    "osName": "ITGPROBLEM",
+    "title": "Definice problému",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiincidentlog",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiincidentlog",
+    "osName": "CDUIINCIDENTLOG",
+    "authApp": "CDUIINCIDENTLOG_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiincidentlog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilbslocation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilbslocation",
+    "osName": "MXAPILBSLOCATION",
+    "authApp": "MXAPILBSLOCATION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilbslocation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspassethierar",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspassethierar",
+    "osName": "REP_PLUSPASSETHIERAR",
+    "authApp": "PLUSPASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspassethierar"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicommodity",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicommodity",
+    "osName": "MXAPICOMMODITY",
+    "authApp": "MXAPICOMMODITY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicommodity"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiattach",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiattach",
+    "osName": "CDUIATTACH",
+    "authApp": "CDUIATTACH_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiattach"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiahblthreshold",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiahblthreshold",
+    "osName": "MXAPIAHBLTHRESHOLD",
+    "authApp": "MXAPIAHBLTHRESHOLD",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiahblthreshold"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiintobject",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiintobject",
+    "osName": "MXAPIINTOBJECT",
+    "authApp": "MXAPIINTOBJECT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiintobject"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cdulocation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cdulocation",
+    "osName": "CDULOCATION",
+    "title": "Lokality pro synchronizaci s CDU",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cdulocation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhasset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhasset",
+    "osName": "MHASSET",
+    "authApp": "MHASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhasset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiasset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiasset",
+    "osName": "MXAPIASSET",
+    "authApp": "MXAPIASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiasset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcnsprefix",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcnsprefix",
+    "osName": "MXOSLCNSPREFIX",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcnsprefix"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiofflist",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiofflist",
+    "osName": "CDUIOFFLIST",
+    "authApp": "CDUIOFFLIST_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiofflist"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiimg",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiimg",
+    "osName": "CDUIIMG",
+    "authApp": "CDUIIMG_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiimg"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmsctmpl",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmsctmpl",
+    "osName": "PMSCTMPL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmsctmpl"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiapikey",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiapikey",
+    "osName": "MXAPIAPIKEY",
+    "authApp": "MXAPIAPIKEY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiapikey"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_srvitem",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_srvitem",
+    "osName": "REP_SRVITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_srvitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/jiraworklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/jiraworklog",
+    "osName": "JIRAWORKLOG",
+    "title": "Integrace s JIRA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/jiraworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxamcrew",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxamcrew",
+    "osName": "MXAMCREW",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxamcrew"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cieapcreate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cieapcreate",
+    "osName": "CIEAPCREATE",
+    "title": "Synchronizace CI aplikace s EAPem - Create CI",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cieapcreate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimaxapp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimaxapp",
+    "osName": "MXAPIMAXAPP",
+    "authApp": "MXAPIMAXAPP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimaxapp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_license",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_license",
+    "osName": "REP_LICENSE",
+    "authApp": "TLOAMLIC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_license"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwo",
+    "osName": "MXWO",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintswvar",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintswvar",
+    "osName": "TAMITINTSWVAR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintswvar"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisr",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisr",
+    "osName": "CDUISR",
+    "authApp": "CDUISR_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxamcrewt",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxamcrewt",
+    "osName": "MXAMCREWT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxamcrewt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintsw",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintsw",
+    "osName": "TAMITINTSW",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintsw"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiclassstructure",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiclassstructure",
+    "osName": "CDUICLASSSTRUCTURE",
+    "authApp": "CDUICLASSSTRUCTURE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiclassstructure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwodetail",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwodetail",
+    "osName": "MXWODETAIL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwodetail"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxassetattr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxassetattr",
+    "osName": "MXASSETATTR",
+    "title": "Asset Attribute Object",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxassetattr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspagree",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspagree",
+    "osName": "REP_PLUSPAGREE",
+    "authApp": "PLUSPAGREE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspagree"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapianalyticdataset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapianalyticdataset",
+    "osName": "MXAPIANALYTICDATASET",
+    "authApp": "MXAPIANALYTICDATASET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapianalyticdataset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinspform",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinspform",
+    "osName": "MXAPIINSPFORM",
+    "authApp": "MXAPIINSPFORM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinspform"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigroup",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigroup",
+    "osName": "CDUIGROUP",
+    "authApp": "CDUIGROUP_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapidomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapidomain",
+    "osName": "MXAPIDOMAIN",
+    "authApp": "MXAPIDOMAIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapidomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiamcrew",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiamcrew",
+    "osName": "MXAPIAMCREW",
+    "authApp": "MXAPIAMCREW",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiamcrew"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/phdtickets",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/phdtickets",
+    "osName": "PHDTICKETS",
+    "title": "Právní helpdesky",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/phdtickets"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinsightfactor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinsightfactor",
+    "osName": "MXAPIINSIGHTFACTOR",
+    "authApp": "MXAPIINSIGHTFACTOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinsightfactor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilaunchpoint",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilaunchpoint",
+    "osName": "MXAPILAUNCHPOINT",
+    "authApp": "MXAPILAUNCHPOINT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilaunchpoint"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_tool",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_tool",
+    "osName": "REP_TOOL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_tool"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_maxdomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_maxdomain",
+    "osName": "SRM_MAXDOMAIN",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_maxdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxincident",
+    "osName": "MXINCIDENT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiauthci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiauthci",
+    "osName": "MXAPIAUTHCI",
+    "authApp": "MXAPIAUTHCI",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiauthci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pminccicrtv",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pminccicrtv",
+    "osName": "PMINCCICRTV",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pminccicrtv"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmoffcomments",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmoffcomments",
+    "osName": "CDUISRMOFFCOMMENTS",
+    "authApp": "CDUISRMOFFCOMMENTS_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmoffcomments"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_cardcreate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_cardcreate",
+    "osName": "SRM_CARDCREATE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_cardcreate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhclassstructure",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhclassstructure",
+    "osName": "MHCLASSSTRUCTURE",
+    "authApp": "MHCLASSSTRUCTURE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhclassstructure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_receipt",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_receipt",
+    "osName": "REP_RECEIPT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_receipt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_pgteam",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_pgteam",
+    "osName": "SRM_PGTEAM",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_pgteam"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhdomain",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhdomain",
+    "osName": "MHDOMAIN",
+    "authApp": "MHDOMAIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhdomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_dmcompresult",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_dmcompresult",
+    "osName": "REP_DMCOMPRESULT",
+    "authApp": "DM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_dmcompresult"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiadmin",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiadmin",
+    "osName": "MXAPIADMIN",
+    "authApp": "MXAPIADMIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiadmin"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxqueue",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxqueue",
+    "osName": "MXQUEUE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxqueue"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelsa",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelsa",
+    "osName": "PMSCRELSA",
+    "title": "ObjectStructure forPMSCRELSA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelsa"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxtksrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxtksrvad",
+    "osName": "MXTKSRVAD",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxtksrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxvendor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxvendor",
+    "osName": "MXVENDOR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxvendor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_solution",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_solution",
+    "osName": "SRM_SOLUTION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_solution"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_repdesign",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_repdesign",
+    "osName": "REP_REPDESIGN",
+    "authApp": "REPORT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_repdesign"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvpicklist",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvpicklist",
+    "osName": "MXAPIINVPICKLIST",
+    "authApp": "MXAPIINVPICKLIST",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvpicklist"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapisrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapisrvad",
+    "osName": "MXAPISRVAD",
+    "authApp": "MXAPISRVAD",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapisrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimyincident",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimyincident",
+    "osName": "CDUIMYINCIDENT",
+    "authApp": "CDUIMYINCIDENT_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimyincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiiotserv",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiiotserv",
+    "osName": "MXAPIIOTSERV",
+    "authApp": "MXAPIIOTSERV",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiiotserv"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_classstructure",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_classstructure",
+    "osName": "SRM_CLASSSTRUCTURE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_classstructure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_labor",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_labor",
+    "osName": "REP_LABOR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_labor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxextsystem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxextsystem",
+    "osName": "MXEXTSYSTEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxextsystem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduidomaininfo",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduidomaininfo",
+    "osName": "CDUIDOMAININFO",
+    "authApp": "CDUIDOMAININFO_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduidomaininfo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiservitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiservitem",
+    "osName": "MXAPISERVITEM",
+    "authApp": "MXAPISERVITEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiservitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspcusob",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspcusob",
+    "osName": "REP_PLUSPCUSOB",
+    "authApp": "PLUSPCUSOB",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspcusob"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiglcomp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiglcomp",
+    "osName": "MXAPIGLCOMP",
+    "authApp": "MXAPIGLCOMP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiglcomp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/jiratickets",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/jiratickets",
+    "osName": "JIRATICKETS",
+    "title": "Objekt pro select JIRA ticketů",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/jiratickets"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiticket",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiticket",
+    "osName": "CDUITICKET",
+    "authApp": "CDUITICKET_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiclassstructure",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiclassstructure",
+    "osName": "MXAPICLASSSTRUCTURE",
+    "authApp": "MXAPICLASSSTRUCTURE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiclassstructure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiuser",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiuser",
+    "osName": "CDUIUSER",
+    "authApp": "CDUIUSER_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelcap",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelcap",
+    "osName": "PMSCRELCAP",
+    "title": "ObjectStructure forPMSCRELCAP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelcap"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvoice",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvoice",
+    "osName": "MXAPIINVOICE",
+    "authApp": "MXAPIINVOICE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvoice"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapishift",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapishift",
+    "osName": "MXAPISHIFT",
+    "authApp": "MXAPISHIFT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapishift"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlaunch",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlaunch",
+    "osName": "MXLAUNCH",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlaunch"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_plusppbill",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_plusppbill",
+    "osName": "REP_PLUSPPBILL",
+    "authApp": "PLUSPPBILL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_plusppbill"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_sla",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_sla",
+    "osName": "REP_SLA",
+    "authApp": "SLA",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_sla"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmincident",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmincident",
+    "osName": "CDUISRMINCIDENT",
+    "authApp": "CDUISRMINCIDENT_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapitksrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapitksrvad",
+    "osName": "MXAPITKSRVAD",
+    "authApp": "MXAPITKSRVAD",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapitksrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiperuser",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiperuser",
+    "osName": "MXAPIPERUSER",
+    "authApp": "MXAPIPERUSER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiperuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwfprocess",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwfprocess",
+    "osName": "MXWFPROCESS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwfprocess"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/qcticket",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/qcticket",
+    "osName": "QCTICKET",
+    "title": "TICKET to QC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/qcticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinspformusewith",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinspformusewith",
+    "osName": "MXAPIINSPFORMUSEWITH",
+    "authApp": "MXAPIINSPFORMUSEWITH",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinspformusewith"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxperuser",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxperuser",
+    "osName": "MXPERUSER",
+    "authApp": "MXAPIPERUSER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxperuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintswrel",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintswrel",
+    "osName": "TAMITINTSWREL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintswrel"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_plusppmpchange",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_plusppmpchange",
+    "osName": "REP_PLUSPPMPCHANGE",
+    "title": "Podrobnosti změny (PLUSP)",
+    "authApp": "PLUSPCHG",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_plusppmpchange"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiendpoint",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiendpoint",
+    "osName": "MXAPIENDPOINT",
+    "authApp": "MXAPIENDPOINT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiendpoint"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapigltxn",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapigltxn",
+    "osName": "MXAPIGLTXN",
+    "authApp": "MXAPIGLTXN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapigltxn"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_offeringdet",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_offeringdet",
+    "osName": "SRM_OFFERINGDET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_offeringdet"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcollectauth",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcollectauth",
+    "osName": "MXCOLLECTAUTH",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcollectauth"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspcust",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspcust",
+    "osName": "REP_PLUSPCUST",
+    "authApp": "PLUSPCUST",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspcust"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxmessage",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxmessage",
+    "osName": "MXMESSAGE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxmessage"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgtkrelrec",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgtkrelrec",
+    "osName": "ITGTKRELREC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgtkrelrec"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiquerytemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiquerytemplate",
+    "osName": "MXAPIQUERYTEMPLATE",
+    "authApp": "MXAPIQUERYTEMPLATE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiquerytemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiempact",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiempact",
+    "osName": "MXAPIEMPACT",
+    "authApp": "MXAPIEMPACT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiempact"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_asset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_asset",
+    "osName": "SRM_ASSET",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_asset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiitemcondition",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiitemcondition",
+    "osName": "MXAPIITEMCONDITION",
+    "authApp": "MXAPIITEMCONDITION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiitemcondition"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/oslcsr",
+    "defaultPageSize": 20,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/oslcsr",
+    "osName": "OSLCSR",
+    "authApp": "SR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/oslcsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapifailurecode",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapifailurecode",
+    "osName": "MXAPIFAILURECODE",
+    "authApp": "MXAPIFAILURECODE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapifailurecode"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintmf",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintmf",
+    "osName": "TAMITINTMF",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintmf"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_srcicrtv",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_srcicrtv",
+    "osName": "SRM_SRCICRTV",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_srcicrtv"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_cart",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_cart",
+    "osName": "SRM_CART",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_cart"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cdupersonteam",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cdupersonteam",
+    "osName": "CDUPERSONTEAM",
+    "title": "NEPOUZIVAT !!!! Definice osoby pro import z CDU vcetne SKUPIN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cdupersonteam"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcerrormap",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcerrormap",
+    "osName": "MXOSLCERRORMAP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcerrormap"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_favitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_favitem",
+    "osName": "SRM_FAVITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_favitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxgroupuser",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxgroupuser",
+    "osName": "MXGROUPUSER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxgroupuser"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxperson",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxperson",
+    "osName": "MXPERSON",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxperson"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilaborcraftrate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilaborcraftrate",
+    "osName": "MXAPILABORCRAFTRATE",
+    "authApp": "MXAPILABORCRAFTRATE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilaborcraftrate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimessage",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimessage",
+    "osName": "MXAPIMESSAGE",
+    "authApp": "MXAPIMESSAGE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimessage"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxentsrv",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxentsrv",
+    "osName": "MXENTSRV",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxentsrv"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvoice",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvoice",
+    "osName": "MXINVOICE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvoice"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvres",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvres",
+    "osName": "MXINVRES",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvres"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/oslcclassstructure",
+    "defaultPageSize": 20,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/oslcclassstructure",
+    "osName": "OSLCCLASSSTRUCTURE",
+    "authApp": "ASSETCAT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/oslcclassstructure"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxosticket",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxosticket",
+    "osName": "MXOSTICKET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxosticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcollection",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcollection",
+    "osName": "MXCOLLECTION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcollection"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicomponent",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicomponent",
+    "osName": "MXAPICOMPONENT",
+    "authApp": "MXAPICOMPONENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicomponent"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/kpitemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/kpitemplate",
+    "osName": "KPITEMPLATE",
+    "authApp": "KPITPL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/kpitemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_jobplan",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_jobplan",
+    "osName": "REP_JOBPLAN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_jobplan"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cdupersongroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cdupersongroup",
+    "osName": "CDUPERSONGROUP",
+    "title": "Person Group pro import z CDU",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cdupersongroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlicense",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlicense",
+    "osName": "MXLICENSE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlicense"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_incidents",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_incidents",
+    "osName": "SRM_INCIDENTS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_incidents"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimyproblem",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimyproblem",
+    "osName": "CDUIMYPROBLEM",
+    "authApp": "CDUIMYPROBLEM_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimyproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxgbtemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxgbtemplate",
+    "osName": "MXGBTEMPLATE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxgbtemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpmcomsr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpmcomsr",
+    "osName": "MXPMCOMSR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpmcomsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxvendormstr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxvendormstr",
+    "osName": "MXVENDORMSTR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxvendormstr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlbslocation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlbslocation",
+    "osName": "MXLBSLOCATION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlbslocation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiiotcfg",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiiotcfg",
+    "osName": "MXAPIIOTCFG",
+    "authApp": "MXAPIIOTCFG",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiiotcfg"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintswcat",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintswcat",
+    "osName": "TAMITINTSWCAT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintswcat"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhorganization",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhorganization",
+    "osName": "MHORGANIZATION",
+    "authApp": "MHORGANIZATION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhorganization"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwpeditsetting",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwpeditsetting",
+    "osName": "MXAPIWPEDITSETTING",
+    "authApp": "MXAPIWPEDITSETTING",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwpeditsetting"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_sr",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_sr",
+    "osName": "REP_SR",
+    "authApp": "SR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_sr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiahdriverlib",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiahdriverlib",
+    "osName": "MXAPIAHDRIVERLIB",
+    "authApp": "MXAPIAHDRIVERLIB",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiahdriverlib"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_inventory",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_inventory",
+    "osName": "REP_INVENTORY",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_inventory"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinspfield",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinspfield",
+    "osName": "MXAPIINSPFIELD",
+    "authApp": "MXAPIINSPFIELD",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinspfield"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocsystem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocsystem",
+    "osName": "MXAPILOCSYSTEM",
+    "authApp": "MXAPILOCSYSTEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocsystem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduperson",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduperson",
+    "osName": "CDUPERSON",
+    "title": "Definice osoby pro import z CDU",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduperson"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiwmassignment",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiwmassignment",
+    "osName": "MXAPIWMASSIGNMENT",
+    "authApp": "MXAPIWMASSIGNMENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiwmassignment"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxosservreq",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxosservreq",
+    "osName": "MXOSSERVREQ",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxosservreq"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhmeter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhmeter",
+    "osName": "MHMETER",
+    "authApp": "MHMETER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhmeter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgcommlog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgcommlog",
+    "osName": "ITGCOMMLOG",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgcommlog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cieap",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cieap",
+    "osName": "CIEAP",
+    "title": "Synchronizace CI aplikace s EAPem - Update CI",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cieap"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_po",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_po",
+    "osName": "REP_PO",
+    "authApp": "PO",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_po"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapitktemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapitktemplate",
+    "osName": "MXAPITKTEMPLATE",
+    "authApp": "MXAPITKTEMPLATE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapitktemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicollectauth",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicollectauth",
+    "osName": "MXAPICOLLECTAUTH",
+    "authApp": "MXAPICOLLECTAUTH",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicollectauth"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cpojincident",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cpojincident",
+    "osName": "CPOJINCIDENT",
+    "title": "CPOJ Incident",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cpojincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_incident",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_incident",
+    "osName": "REP_INCIDENT",
+    "authApp": "INCIDENT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_incident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapinotification",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapinotification",
+    "osName": "MXAPINOTIFICATION",
+    "authApp": "MXAPINOTIFICATION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapinotification"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_workorder",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_workorder",
+    "osName": "REP_WORKORDER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_workorder"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimeter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimeter",
+    "osName": "MXAPIMETER",
+    "authApp": "MXAPIMETER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimeter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlabor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlabor",
+    "osName": "MXLABOR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlabor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelvdisw",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelvdisw",
+    "osName": "PMSCRELVDISW",
+    "title": "ObjectStructure forPMSCRELVDISW",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelvdisw"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigetsysprop",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigetsysprop",
+    "osName": "CDUIGETSYSPROP",
+    "authApp": "CDUIGETSYSPROP_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigetsysprop"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_mxintobject",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_mxintobject",
+    "osName": "REP_MXINTOBJECT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_mxintobject"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxweatheralert",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxweatheralert",
+    "osName": "MXWEATHERALERT",
+    "title": "Weather Alerts",
+    "authApp": "WEATHERADMIN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxweatheralert"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgticketwklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgticketwklog",
+    "osName": "ITGTICKETWKLOG",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgticketwklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigetpersongroup",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigetpersongroup",
+    "osName": "CDUIGETPERSONGROUP",
+    "authApp": "CDUIGETPERSONGROUP_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigetpersongroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxtoolitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxtoolitem",
+    "osName": "MXTOOLITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxtoolitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgworklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgworklog",
+    "osName": "ITGWORKLOG",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiiotdevice",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiiotdevice",
+    "osName": "MXAPIIOTDEVICE",
+    "authApp": "MXAPIIOTSERV",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiiotdevice"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapifileimportqueue",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapifileimportqueue",
+    "osName": "MXAPIFILEIMPORTQUEUE",
+    "authApp": "MXAPIFILEIMPORTQUEUE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapifileimportqueue"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqactci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqactci",
+    "osName": "DWQACTCI",
+    "title": "Deployer's Workbench actual CI query structure",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqactci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxaction",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxaction",
+    "osName": "MXACTION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxaction"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiattrformula",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiattrformula",
+    "osName": "MXAPIATTRFORMULA",
+    "authApp": "MXAPIATTRFORMULA",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiattrformula"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimyticket",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimyticket",
+    "osName": "CDUIMYTICKET",
+    "authApp": "CDUIMYTICKET_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimyticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimysr",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimysr",
+    "osName": "CDUIMYSR",
+    "authApp": "CDUIMYSR_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimysr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigetgroupmembers",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigetgroupmembers",
+    "osName": "CDUIGETGROUPMEMBERS",
+    "authApp": "CDUIGETGROUPMEMBER_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigetgroupmembers"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxgltxn",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxgltxn",
+    "osName": "MXGLTXN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxgltxn"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxrcvrotitm",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxrcvrotitm",
+    "osName": "MXRCVROTITM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxrcvrotitm"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapioperloc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapioperloc",
+    "osName": "MXAPIOPERLOC",
+    "authApp": "MXAPIOPERLOC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapioperloc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelsrvapl",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelsrvapl",
+    "osName": "PMSCRELSRVAPL",
+    "title": "ObjectStructure forPMSCRELSRVAPL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelsrvapl"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxmapman",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxmapman",
+    "osName": "MXMAPMAN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxmapman"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapidoctype",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapidoctype",
+    "osName": "MXAPIDOCTYPE",
+    "authApp": "MXAPIDOCTYPE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapidoctype"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxasset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxasset",
+    "osName": "MXASSET",
+    "authApp": "MXAPIASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxasset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rbamxwfdesign",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rbamxwfdesign",
+    "osName": "RBAMXWFDESIGN",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rbamxwfdesign"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_woplanact",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_woplanact",
+    "osName": "REP_WOPLANACT",
+    "authApp": "WOTRACK",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_woplanact"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmsolution",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmsolution",
+    "osName": "CDUISRMSOLUTION",
+    "authApp": "CDUISRMSOLUTION_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmsolution"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoslcrestype",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoslcrestype",
+    "osName": "MXOSLCRESTYPE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoslcrestype"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisla",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisla",
+    "osName": "CDUISLA",
+    "authApp": "CDUISLA_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisla"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cdutickets",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cdutickets",
+    "osName": "CDUTICKETS",
+    "title": "Požadavky z CDU na změnu hesla",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cdutickets"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiconversion",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiconversion",
+    "osName": "MXAPICONVERSION",
+    "authApp": "MXAPICONVERSION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiconversion"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_invuse",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_invuse",
+    "osName": "REP_INVUSE",
+    "authApp": "INVUSAGE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_invuse"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srmtktempltos",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srmtktempltos",
+    "osName": "SRMTKTEMPLTOS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srmtktempltos"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvvendor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvvendor",
+    "osName": "MXINVVENDOR",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvvendor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxmaxgroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxmaxgroup",
+    "osName": "MXMAXGROUP",
+    "title": "Skupiny zabezpeceni CPOJ (securitygroup)",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxmaxgroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_orgsite",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_orgsite",
+    "osName": "SRM_ORGSITE",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_orgsite"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinventory",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinventory",
+    "osName": "MXAPIINVENTORY",
+    "authApp": "MXAPIINVENTORY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinventory"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiseraddress",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiseraddress",
+    "osName": "MXAPISERADDRESS",
+    "authApp": "MXAPISERADDRESS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiseraddress"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhjobplan",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhjobplan",
+    "osName": "MHJOBPLAN",
+    "authApp": "MHJOBPLAN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhjobplan"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxreceipt",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxreceipt",
+    "osName": "MXRECEIPT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxreceipt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxclassification",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxclassification",
+    "osName": "MXCLASSIFICATION",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxclassification"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiasset",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiasset",
+    "osName": "CDUIASSET",
+    "authApp": "CDUIASSET_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiasset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxlmo2",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxlmo2",
+    "osName": "MXLMO2",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxlmo2"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxosproblem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxosproblem",
+    "osName": "MXOSPROBLEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxosproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_assetactivity",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_assetactivity",
+    "osName": "REP_ASSETACTIVITY",
+    "authApp": "ASSET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_assetactivity"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapireceipt",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapireceipt",
+    "osName": "MXAPIRECEIPT",
+    "authApp": "MXAPIRECEIPT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapireceipt"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduigetpgteam",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduigetpgteam",
+    "osName": "CDUIGETPGTEAM",
+    "authApp": "CDUIGETPGTEAM_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduigetpgteam"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhquery",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhquery",
+    "osName": "MHQUERY",
+    "authApp": "MHQUERY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhquery"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/tamitintswprtnum",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/tamitintswprtnum",
+    "osName": "TAMITINTSWPRTNUM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/tamitintswprtnum"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/kbkontosoby",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/kbkontosoby",
+    "osName": "KBKONTOSOBY",
+    "title": "CMDB Kontaktní osoby pro znalostní databázi",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/kbkontosoby"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhinspection",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhinspection",
+    "osName": "MHINSPECTION",
+    "authApp": "MHINSPECTION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhinspection"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiperson",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiperson",
+    "osName": "MXAPIPERSON",
+    "authApp": "MXAPIPERSON",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiperson"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduioff",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduioff",
+    "osName": "CDUIOFF",
+    "authApp": "CDUIOFF_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduioff"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxitem",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxitem",
+    "osName": "MXITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxitem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxrelationrule",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxrelationrule",
+    "osName": "MXRELATIONRULE",
+    "title": "Relationship Rule integration object",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxrelationrule"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcitemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcitemplate",
+    "osName": "MXCITEMPLATE",
+    "title": "Promotion Template/Scope Object Structure",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcitemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/dwqpluspcustomer",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/dwqpluspcustomer",
+    "osName": "DWQPLUSPCUSTOMER",
+    "title": "Deployers Workbench Query for SP Customers",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/dwqpluspcustomer"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgdocinfo",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgdocinfo",
+    "osName": "ITGDOCINFO",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgdocinfo"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/qcworklog",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/qcworklog",
+    "osName": "QCWORKLOG",
+    "title": "Poznámky TICKETU do QC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/qcworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_person",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_person",
+    "osName": "REP_PERSON",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_person"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_plusppbook",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_plusppbook",
+    "osName": "REP_PLUSPPBOOK",
+    "authApp": "PLUSPPBOOK",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_plusppbook"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/sccdauthci",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/sccdauthci",
+    "osName": "SCCDAUTHCI",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/sccdauthci"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxifaceout",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxifaceout",
+    "osName": "MXIFACEOUT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxifaceout"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapimeasureunit",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapimeasureunit",
+    "osName": "MXAPIMEASUREUNIT",
+    "authApp": "MXAPIMEASUREUNIT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapimeasureunit"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiquery",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiquery",
+    "osName": "MXAPIQUERY",
+    "authApp": "MXAPIQUERY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiquery"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduitktemplate",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduitktemplate",
+    "osName": "CDUITKTEMPLATE",
+    "authApp": "CDUITKTEMPLATE_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduitktemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itassetdisposal",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itassetdisposal",
+    "osName": "ITASSETDISPOSAL",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itassetdisposal"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcprqticket",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcprqticket",
+    "osName": "MXCPRQTICKET",
+    "title": "Intergace pro infrastrukturní žádosti",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcprqticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxoperloc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxoperloc",
+    "osName": "MXOPERLOC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxoperloc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_offering",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_offering",
+    "osName": "SRM_OFFERING",
+    "authApp": "SRMSSCTR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_offering"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhoperloc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhoperloc",
+    "osName": "MHOPERLOC",
+    "authApp": "MHOPERLOC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhoperloc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxorganization",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxorganization",
+    "osName": "MXORGANIZATION",
+    "title": "Definice organizace a org. jednotky",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxorganization"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwohier",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwohier",
+    "osName": "MXWOHIER",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwohier"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/sccdoslcsyndomain",
+    "defaultPageSize": 20,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/sccdoslcsyndomain",
+    "osName": "SCCDOSLCSYNDOMAIN",
+    "authApp": "DOMAINADM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/sccdoslcsyndomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/worelease",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/worelease",
+    "osName": "WORELEASE",
+    "title": "Worelease import dat",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/worelease"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvuse",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvuse",
+    "osName": "MXINVUSE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvuse"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiproblem",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiproblem",
+    "osName": "CDUIPROBLEM",
+    "authApp": "CDUIPROBLEM_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiproblem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapibookmark",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapibookmark",
+    "osName": "MXAPIBOOKMARK",
+    "authApp": "MXAPIBOOKMARK",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapibookmark"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgworelease",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgworelease",
+    "osName": "ITGWORELEASE",
+    "title": "Definice release",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgworelease"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxrelation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxrelation",
+    "osName": "MXRELATION",
+    "title": "Relation type integration object",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxrelation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxwosrvad",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxwosrvad",
+    "osName": "MXWOSRVAD",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxwosrvad"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapijobplan",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapijobplan",
+    "osName": "MXAPIJOBPLAN",
+    "authApp": "MXAPIJOBPLAN",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapijobplan"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilabor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilabor",
+    "osName": "MXAPILABOR",
+    "authApp": "MXAPILABOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilabor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_item",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_item",
+    "osName": "REP_ITEM",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_item"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipergroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipergroup",
+    "osName": "MXAPIPERGROUP",
+    "authApp": "MXAPIPERGROUP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipergroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscrelapp",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscrelapp",
+    "osName": "PMSCRELAPP",
+    "title": "ObjectStructure forPMSCRELAPP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscrelapp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiassetmeter",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiassetmeter",
+    "osName": "MXAPIASSETMETER",
+    "authApp": "MXAPIASSETMETER",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiassetmeter"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_site",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_site",
+    "osName": "SRM_SITE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_site"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxctemplate",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxctemplate",
+    "osName": "MXCTEMPLATE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxctemplate"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/shopzlicense",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/shopzlicense",
+    "osName": "SHOPZLICENSE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/shopzlicense"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiroutes",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiroutes",
+    "osName": "MXAPIROUTES",
+    "authApp": "MXAPIROUTES",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiroutes"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvvendor",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvvendor",
+    "osName": "MXAPIINVVENDOR",
+    "authApp": "MXAPIINVVENDOR",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvvendor"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxbimproject",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxbimproject",
+    "osName": "MXBIMPROJECT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxbimproject"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxpm_asset",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxpm_asset",
+    "osName": "MXPM_ASSET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxpm_asset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxcoa",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxcoa",
+    "osName": "MXCOA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxcoa"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/pmscbldaccess",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/pmscbldaccess",
+    "osName": "PMSCBLDACCESS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/pmscbldaccess"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocations",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocations",
+    "osName": "MXAPILOCATIONS",
+    "authApp": "MXAPILOCATIONS",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocations"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduisrmsolcomments",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduisrmsolcomments",
+    "osName": "CDUISRMSOLCOMMENTS",
+    "authApp": "CDUISRMSOLCOMMENTS_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduisrmsolcomments"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_locations",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_locations",
+    "osName": "REP_LOCATIONS",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_locations"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduialndomain",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduialndomain",
+    "osName": "CDUIALNDOMAIN",
+    "authApp": "CDUIALNDOMAIN_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduialndomain"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxifaceinvoke",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxifaceinvoke",
+    "osName": "MXIFACEINVOKE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxifaceinvoke"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mhfailurelist",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mhfailurelist",
+    "osName": "MHFAILURELIST",
+    "authApp": "MHFAILURELIST",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mhfailurelist"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiassetspare",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiassetspare",
+    "osName": "MXAPIASSETSPARE",
+    "authApp": "MXAPIASSETSPARE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiassetspare"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspincident",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspincident",
+    "osName": "REP_PLUSPINCIDENT",
+    "title": "Podrobnosti incidentu (PLUSP)",
+    "authApp": "PLUSPINC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspincident"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/jirareleases",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/jirareleases",
+    "osName": "JIRARELEASES",
+    "title": "MIgrace do JIRA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/jirareleases"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiweatherproduct",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "searchAttributes": true,
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiweatherproduct",
+    "osName": "MXAPIWEATHERPRODUCT",
+    "authApp": "MXAPIWEATHERPRODUCT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiweatherproduct"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduiprioritymatrix",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduiprioritymatrix",
+    "osName": "CDUIPRIORITYMATRIX",
+    "authApp": "CDUIPRIORITYMATRIX_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduiprioritymatrix"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvissue",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvissue",
+    "osName": "MXAPIINVISSUE",
+    "authApp": "MXAPIINVISSUE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvissue"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiworkscapelayout",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiworkscapelayout",
+    "osName": "MXAPIWORKSCAPELAYOUT",
+    "authApp": "MXAPIWORKSCAPELAYOUT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiworkscapelayout"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapipersongroup",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapipersongroup",
+    "osName": "MXAPIPERSONGROUP",
+    "authApp": "MXAPIPERSONGROUP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapipersongroup"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxempact",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxempact",
+    "osName": "MXEMPACT",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxempact"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rbamxwfinstance",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rbamxwfinstance",
+    "osName": "RBAMXWFINSTANCE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rbamxwfinstance"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilocation",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilocation",
+    "osName": "MXAPILOCATION",
+    "authApp": "MXAPILOCATION",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilocation"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspbill",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspbill",
+    "osName": "REP_PLUSPBILL",
+    "authApp": "PLUSPBILL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspbill"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapilicense",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapilicense",
+    "osName": "MXAPILICENSE",
+    "authApp": "MXAPILICENSE",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapilicense"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapicoa",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapicoa",
+    "osName": "MXAPICOA",
+    "authApp": "MXAPICOA",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapicoa"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxinvissue",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxinvissue",
+    "osName": "MXINVISSUE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxinvissue"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiinvbal",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiinvbal",
+    "osName": "MXAPIINVBAL",
+    "authApp": "MXAPIINVBAL",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiinvbal"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/cduimyworklog",
+    "defaultPageSize": 100,
+    "useWith": "OSLC",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/cduimyworklog",
+    "osName": "CDUIMYWORKLOG",
+    "authApp": "CDUIMYWORKLOG_A",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/cduimyworklog"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_shipment",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_shipment",
+    "osName": "REP_SHIPMENT",
+    "authApp": "SHIPREC",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_shipment"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiahmethodology",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiahmethodology",
+    "osName": "MXAPIAHMETHODOLOGY",
+    "authApp": "MXAPIAHMETHODOLOGY",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiahmethodology"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/srm_srdet",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/srm_srdet",
+    "osName": "SRM_SRDET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/srm_srdet"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxapiautoscript",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxapiautoscript",
+    "osName": "MXAPIAUTOSCRIPT",
+    "authApp": "MXAPIAUTOSCRIPT",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxapiautoscript"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_asset",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_asset",
+    "osName": "REP_ASSET",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_asset"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxproj",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxproj",
+    "osName": "MXPROJ",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxproj"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_problem",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_problem",
+    "osName": "REP_PROBLEM",
+    "authApp": "PROBLEM",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_problem"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_invoice",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_invoice",
+    "osName": "REP_INVOICE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_invoice"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxprop",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxprop",
+    "osName": "MXPROP",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxprop"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/itgsr",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/itgsr",
+    "osName": "ITGSR",
+    "title": "Definice požadavku na službu",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/itgsr"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/rep_pluspresp",
+    "defaultPageSize": 100,
+    "useWith": "HLÁŠENÍ",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/rep_pluspresp",
+    "osName": "REP_PLUSPRESP",
+    "authApp": "PLUSPRESP",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/rep_pluspresp"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxstoreloc",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxstoreloc",
+    "osName": "MXSTORELOC",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxstoreloc"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxbudget",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxbudget",
+    "osName": "MXBUDGET",
+    "authApp": "BUDGET",
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxbudget"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/mxjiraticket",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/mxjiraticket",
+    "osName": "MXJIRATICKET",
+    "title": "Integrace JIRA",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/mxjiraticket"
+  },
+  {
+    "schema": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/jsonschemas/ppalicense",
+    "defaultPageSize": 100,
+    "useWith": "INTEGRACE",
+    "href": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/apimeta/ppalicense",
+    "osName": "PPALICENSE",
+    "authApp": null,
+    "apidoc": "http://czcstivoliasp1.cpas.cz:80/maximo/oslc/yaml/ppalicense"
+  }
+]

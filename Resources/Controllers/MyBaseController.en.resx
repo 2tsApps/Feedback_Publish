@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddApplication" xml:space="preserve">
+    <value>Add application</value>
+  </data>
+  <data name="AddedToFaq" xml:space="preserve">
+    <value>Added to FAQ</value>
+  </data>
+  <data name="AddFaq" xml:space="preserve">
+    <value>Add FAQ</value>
+  </data>
+  <data name="AddRating" xml:space="preserve">
+    <value>Add rating</value>
+  </data>
+  <data name="AddResolver" xml:space="preserve">
+    <value>Add resolver</value>
+  </data>
+  <data name="AddToFaq" xml:space="preserve">
+    <value>Add to FAQ</value>
+  </data>
+  <data name="AddToFaqButNotLinkedWarning" xml:space="preserve">
+    <value>This response is marked "Add to FAQ" but is not linked to any FAQ item yet.</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="AliasMustNotBeLlm" xml:space="preserve">
+    <value>Alias must not be `_llm`.</value>
+  </data>
+  <data name="AllApps" xml:space="preserve">
+    <value>All apps</value>
+  </data>
+  <data name="AllFeedback" xml:space="preserve">
+    <value>All feedback</value>
+  </data>
+  <data name="AllStatuses" xml:space="preserve">
+    <value>All statuses</value>
+  </data>
+  <data name="AllTypes" xml:space="preserve">
+    <value>All types</value>
+  </data>
+  <data name="AlreadyImportedFiles" xml:space="preserve">
+    <value>Already imported files</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="AnswerNotSufficientRequestManualReview" xml:space="preserve">
+    <value>Answer not sufficient – request manual review</value>
+  </data>
+  <data name="AnswerShort" xml:space="preserve">
+    <value>A:</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="ApplicationDetails" xml:space="preserve">
+    <value>Application details</value>
+  </data>
+  <data name="ApplicationRatings" xml:space="preserve">
+    <value>Application ratings</value>
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Applications</value>
+  </data>
+  <data name="Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="AppUserId" xml:space="preserve">
+    <value>AppUserId</value>
+  </data>
+  <data name="AverageRating" xml:space="preserve">
+    <value>Average rating</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BackToDetails" xml:space="preserve">
+    <value>Back to details</value>
+  </data>
+  <data name="BackToEdit" xml:space="preserve">
+    <value>Back to edit</value>
+  </data>
+  <data name="BeforeSubmittingNewFeedbackInfoTemplate" xml:space="preserve">
+    <value>&lt;strong&gt;Before submitting new feedback:&lt;/strong&gt; please review the &lt;a href="{0}"&gt;existing feedback&lt;/a&gt; and the &lt;a href="{1}"&gt;FAQ&lt;/a&gt;. Your question or request may have already been submitted or answered.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>BETA</value>
+  </data>
+  <data name="BetaTitle" xml:space="preserve">
+    <value>Beta: use with caution; features may change.</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Confirm delete</value>
+  </data>
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
+    <value>Do you really want to delete</value>
+  </data>
+  <data name="ThisApplication" xml:space="preserve">
+    <value>this application</value>
+  </data>
+  <data name="ThisActionCannotBeUndone" xml:space="preserve">
+    <value>This action cannot be undone.</value>
+  </data>
+  <data name="CharactersRemainingTemplate" xml:space="preserve">
+    <value>{0} characters remaining</value>
+  </data>
+  <data name="ConfirmDeleteAllVersions" xml:space="preserve">
+    <value>Delete all versions?</value>
+  </data>
+  <data name="ConfirmDeleteApplication" xml:space="preserve">
+    <value>Are you sure you want to delete this application? This action cannot be undone.</value>
+  </data>
+  <data name="ConfirmDeleteFaq" xml:space="preserve">
+    <value>Are you sure you want to delete this FAQ?</value>
+  </data>
+  <data name="ConfirmDeleteFeedback" xml:space="preserve">
+    <value>Are you sure you want to delete this feedback?</value>
+  </data>
+  <data name="ConfirmDeleteResponse" xml:space="preserve">
+    <value>Delete this response?</value>
+  </data>
+  <data name="ConfirmRemoveResolver" xml:space="preserve">
+    <value>Remove resolver from this application?</value>
+  </data>
+  <data name="ConfirmRollbackToVersionTemplate" xml:space="preserve">
+    <value>Rollback to version {0}? Newer versions will be deleted.</value>
+  </data>
+  <data name="ConfirmUpdateLinkedFaq" xml:space="preserve">
+    <value>Update the linked FAQ item with the edited answer?</value>
+  </data>
+  <data name="Created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="CurrentDebugAlias" xml:space="preserve">
+    <value>Current debug alias</value>
+  </data>
+  <data name="CurrentFaqAnswer" xml:space="preserve">
+    <value>Current FAQ answer</value>
+  </data>
+  <data name="CurrentResolvers" xml:space="preserve">
+    <value>Current resolvers</value>
+  </data>
+  <data name="Dataset" xml:space="preserve">
+    <value>Dataset</value>
+  </data>
+  <data name="DatasetId" xml:space="preserve">
+    <value>DatasetId</value>
+  </data>
+  <data name="DebugAliasForTesting" xml:space="preserve">
+    <value>Debug alias for testing:</value>
+  </data>
+  <data name="DebugAliasSettings" xml:space="preserve">
+    <value>Debug alias settings</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>Delete all</value>
+  </data>
+  <data name="DeleteApplication" xml:space="preserve">
+    <value>Delete application</value>
+  </data>
+  <data name="DeleteApplicationWarningTemplate" xml:space="preserve">
+    <value>This will permanently delete the application {0} and all related feedback and FAQ entries.</value>
+  </data>
+  <data name="DeleteDatasetForApp" xml:space="preserve">
+    <value>Delete dataset for application</value>
+  </data>
+  <data name="DeleteFaq" xml:space="preserve">
+    <value>Delete FAQ</value>
+  </data>
+  <data name="DeleteFaqWarning" xml:space="preserve">
+    <value>This will permanently delete the FAQ entry below.</value>
+  </data>
+  <data name="DeleteFeedback" xml:space="preserve">
+    <value>Delete feedback</value>
+  </data>
+  <data name="DeleteFeedbackWarningTemplate" xml:space="preserve">
+    <value>This will permanently delete your feedback {0}.</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Distribution" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Edited" xml:space="preserve">
+    <value>edited</value>
+  </data>
+  <data name="EditApplication" xml:space="preserve">
+    <value>Edit application</value>
+  </data>
+  <data name="EditFaq" xml:space="preserve">
+    <value>Edit FAQ</value>
+  </data>
+  <data name="EditFeedback" xml:space="preserve">
+    <value>Edit feedback</value>
+  </data>
+  <data name="EditResponse" xml:space="preserve">
+    <value>Edit response</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorDevModeInfoHtml" xml:space="preserve">
+    <value>&lt;h3&gt;Development Mode&lt;/h3&gt;&lt;p&gt;Switching to &lt;strong&gt;Development&lt;/strong&gt; will display more detailed information about the error that occurred.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Development environment should not be enabled for deployed applications.&lt;/strong&gt; It can result in displaying sensitive information to end users.&lt;/p&gt;</value>
+  </data>
+  <data name="ErrorOccurredProcessingRequest" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="ExistingResponses" xml:space="preserve">
+    <value>Existing responses</value>
+  </data>
+  <data name="Faq" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="FaqReorderFailed" xml:space="preserve">
+    <value>Failed to save FAQ order.</value>
+  </data>
+  <data name="FaqReorderTip" xml:space="preserve">
+    <value>Tip: FAQ can be reordered by dragging the ☰ icon.</value>
+  </data>
+  <data name="Feedback" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="FeedbackDetails" xml:space="preserve">
+    <value>Feedback details</value>
+  </data>
+  <data name="FeedbackStatusNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="FeedbackStatusResolved" xml:space="preserve">
+    <value>Resolved</value>
+  </data>
+  <data name="FeedbackTypeAria" xml:space="preserve">
+    <value>Feedback type</value>
+  </data>
+  <data name="FeedbackTypeBug" xml:space="preserve">
+    <value>Bug</value>
+  </data>
+  <data name="FeedbackTypeQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="FeedbackTypeSuggestion" xml:space="preserve">
+    <value>Suggestion</value>
+  </data>
+  <data name="FeedbackWithResponsesCannotBeDeleted" xml:space="preserve">
+    <value>Feedback with responses cannot be deleted.</value>
+  </data>
+  <data name="FileDocxMdTxt" xml:space="preserve">
+    <value>File (.docx, .md, .txt)</value>
+  </data>
+  <data name="FilterApplications" xml:space="preserve">
+    <value>Filter applications…</value>
+  </data>
+  <data name="FilterByApp" xml:space="preserve">
+    <value>Filter by app:</value>
+  </data>
+  <data name="FilterByStatus" xml:space="preserve">
+    <value>Filter by status:</value>
+  </data>
+  <data name="FilterByType" xml:space="preserve">
+    <value>Filter by type:</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>from</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Hash</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>HOME</value>
+  </data>
+  <data name="HomeIntro" xml:space="preserve">
+    <value>This application allows you to submit feedback, rate applications, browse FAQ, and view feedback from others.</value>
+  </data>
+  <data name="IdenticalFeedbackExists" xml:space="preserve">
+    <value>An identical feedback already exists and cannot be submitted again.</value>
+  </data>
+  <data name="IfFileWithSameNameExists" xml:space="preserve">
+    <value>If a file with the same name already exists</value>
+  </data>
+  <data name="ImInterested" xml:space="preserve">
+    <value>I'm interested</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>Imported</value>
+  </data>
+  <data name="ImportKnowledge" xml:space="preserve">
+    <value>Import knowledge</value>
+  </data>
+  <data name="ImportKnowledgeLlm" xml:space="preserve">
+    <value>Import knowledge (LLM)</value>
+  </data>
+  <data name="ImportModeAppend" xml:space="preserve">
+    <value>Append (creates a new version based on content)</value>
+  </data>
+  <data name="ImportModeReplace" xml:space="preserve">
+    <value>Replace (delete the old one and import again)</value>
+  </data>
+  <data name="ImportSources" xml:space="preserve">
+    <value>Import sources</value>
+  </data>
+  <data name="InQueue" xml:space="preserve">
+    <value>In queue:</value>
+  </data>
+  <data name="InterestCountTitle" xml:space="preserve">
+    <value>Number of users interested in this feedback</value>
+  </data>
+  <data name="LlmOffline" xml:space="preserve">
+    <value>LLM offline</value>
+  </data>
+  <data name="LlmServiceUnavailableMessage" xml:space="preserve">
+    <value>The LLM service is unavailable (most likely llama-server.exe is not running). Start it and try again.</value>
+  </data>
+  <data name="LlmServiceUnavailableTitle" xml:space="preserve">
+    <value>LLM service is unavailable (most likely llama-server.exe is not running)</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="MakePrimary" xml:space="preserve">
+    <value>Make primary</value>
+  </data>
+  <data name="ManageResolvers" xml:space="preserve">
+    <value>Manage resolvers</value>
+  </data>
+  <data name="MarkAsResolved" xml:space="preserve">
+    <value>Mark as resolved</value>
+  </data>
+  <data name="MoveItem" xml:space="preserve">
+    <value>Move item</value>
+  </data>
+  <data name="MyFeedback" xml:space="preserve">
+    <value>My feedback</value>
+  </data>
+  <data name="MyRatings" xml:space="preserve">
+    <value>My ratings</value>
+  </data>
+  <data name="NewBugsTitle" xml:space="preserve">
+    <value>New bugs</value>
+  </data>
+  <data name="NewQuestionsTitle" xml:space="preserve">
+    <value>New questions</value>
+  </data>
+  <data name="NewSuggestionsTitle" xml:space="preserve">
+    <value>New suggestions</value>
+  </data>
+  <data name="NoFaqEntriesFound" xml:space="preserve">
+    <value>No FAQ entries found.</value>
+  </data>
+  <data name="NoFaqEntriesYet" xml:space="preserve">
+    <value>No FAQ entries yet.</value>
+  </data>
+  <data name="NoFeedbackYet" xml:space="preserve">
+    <value>No feedback yet.</value>
+  </data>
+  <data name="NoFilesImportedYet" xml:space="preserve">
+    <value>No files have been imported for the selected application yet.</value>
+  </data>
+  <data name="NoIds" xml:space="preserve">
+    <value>No ids were provided.</value>
+  </data>
+  <data name="NoRatings" xml:space="preserve">
+    <value>no ratings</value>
+  </data>
+  <data name="NoRatingsYetForThisApp" xml:space="preserve">
+    <value>No ratings yet for this application.</value>
+  </data>
+  <data name="OnlyQuestionsCanBeAutoAnswered" xml:space="preserve">
+    <value>Only questions can be auto-answered.</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="OpenApplication" xml:space="preserve">
+    <value>Open application</value>
+  </data>
+  <data name="OrTypeAlias" xml:space="preserve">
+    <value>Or type alias</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="PleaseSelectApplicationFirst" xml:space="preserve">
+    <value>Please select an application first.</value>
+  </data>
+  <data name="Primary" xml:space="preserve">
+    <value>Primary</value>
+  </data>
+  <data name="Privacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+  <data name="PrivacyPolicyContent" xml:space="preserve">
+    <value>&lt;h1&gt;Privacy policy&lt;/h1&gt;&lt;section&gt;&lt;h2&gt;Introduction&lt;/h2&gt;&lt;p&gt;This page explains how we collect, use, and protect your personal information when you use our feedback application.&lt;/p&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;Information we collect&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Feedback and comments you submit&lt;/li&gt;&lt;li&gt;Ratings you provide&lt;/li&gt;&lt;li&gt;Basic user information (such as your username or email, if applicable)&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;How we use your information&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;To display and manage feedback and ratings&lt;/li&gt;&lt;li&gt;To improve our services and user experience&lt;/li&gt;&lt;li&gt;To respond to your inquiries or requests&lt;/li&gt;&lt;/ul&gt;&lt;/section&gt;</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="QuestionShort" xml:space="preserve">
+    <value>Q:</value>
+  </data>
+  <data name="RagAdmin" xml:space="preserve">
+    <value>RAG Admin</value>
+  </data>
+  <data name="RagAdminDeletedChunksTemplate" xml:space="preserve">
+    <value>Deleted chunks: {0}.</value>
+  </data>
+  <data name="RagAdminIngestDoneTemplate" xml:space="preserve">
+    <value>Import completed. Inserted chunks: {0}.</value>
+  </data>
+  <data name="RagImportFileDeletedAllVersionsTemplate" xml:space="preserve">
+    <value>File '{0}' was deleted (all versions).</value>
+  </data>
+  <data name="RagImportFileImportedTemplate" xml:space="preserve">
+    <value>File '{0}' imported. Imported chunks: {1}.</value>
+  </data>
+  <data name="RagImportFileReplacedTemplate" xml:space="preserve">
+    <value>File '{0}' was replaced. Imported chunks: {1}.</value>
+  </data>
+  <data name="RagImportFileTooLargeTemplate" xml:space="preserve">
+    <value>File is too large. Maximum is {0} MB.</value>
+  </data>
+  <data name="RagImportNoFileSelected" xml:space="preserve">
+    <value>No file was selected.</value>
+  </data>
+  <data name="RagImportRollbackDoneTemplate" xml:space="preserve">
+    <value>Rollback completed for '{0}' to version {1}.</value>
+  </data>
+  <data name="RagImportRollbackNothingToDelete" xml:space="preserve">
+    <value>Rollback: nothing to delete.</value>
+  </data>
+  <data name="RateApplication" xml:space="preserve">
+    <value>Rate application</value>
+  </data>
+  <data name="RatedAt" xml:space="preserve">
+    <value>Rated at</value>
+  </data>
+  <data name="RateThisApp" xml:space="preserve">
+    <value>Rate this app</value>
+  </data>
+  <data name="Rating" xml:space="preserve">
+    <value>Rating</value>
+  </data>
+  <data name="Ratings" xml:space="preserve">
+    <value>Ratings</value>
+  </data>
+  <data name="RatingsCount" xml:space="preserve">
+    <value>rating(s)</value>
+  </data>
+  <data name="RatingsSummary" xml:space="preserve">
+    <value>Ratings summary</value>
+  </data>
+  <data name="RealAlias" xml:space="preserve">
+    <value>Real alias</value>
+  </data>
+  <data name="RecentFeedback" xml:space="preserve">
+    <value>Recent feedback</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="RequestId" xml:space="preserve">
+    <value>Request ID</value>
+  </data>
+  <data name="RequestManualReview" xml:space="preserve">
+    <value>Request manual review</value>
+  </data>
+  <data name="Resolved" xml:space="preserve">
+    <value>Resolved</value>
+  </data>
+  <data name="Respond" xml:space="preserve">
+    <value>Respond</value>
+  </data>
+  <data name="RespondToFeedback" xml:space="preserve">
+    <value>Respond to feedback</value>
+  </data>
+  <data name="Responses" xml:space="preserve">
+    <value>Responses</value>
+  </data>
+  <data name="SendToHelpdesk" xml:space="preserve">
+    <value>Send to Helpdesk</value>
+  </data>
+  <data name="HelpdeskCreateFailed" xml:space="preserve">
+    <value>Failed to create a helpdesk ticket.</value>
+  </data>
+  <data name="HelpdeskInvalidResponse" xml:space="preserve">
+    <value>The helpdesk response did not contain an SR number.</value>
+  </data>
+  <data name="HelpdeskNotConfigured" xml:space="preserve">
+    <value>The helpdesk integration is not configured.</value>
+  </data>
+  <data name="HelpdeskTicketCreatedTemplate" xml:space="preserve">
+    <value>Helpdesk ticket created: {0}.</value>
+  </data>
+  <data name="HelpdeskUnexpectedError" xml:space="preserve">
+    <value>An unexpected error occurred while sending the ticket to the helpdesk.</value>
+  </data>
+  <data name="RetryAutoAnswer" xml:space="preserve">
+    <value>Retry auto-answer (LLM)</value>
+  </data>
+  <data name="Rollback" xml:space="preserve">
+    <value>Rollback</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveRating" xml:space="preserve">
+    <value>Save rating</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>-- select --</value>
+  </data>
+  <data name="SelectApplication" xml:space="preserve">
+    <value>-- Select application --</value>
+  </data>
+  <data name="SelectAppToRateIntro" xml:space="preserve">
+    <value>Select an application to rate. You will be taken to the rating page.</value>
+  </data>
+  <data name="SelectType" xml:space="preserve">
+    <value>-- Select type --</value>
+  </data>
+  <data name="SendResponse" xml:space="preserve">
+    <value>Send response</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="SimilarFeedbacksFound" xml:space="preserve">
+    <value>Similar feedback(s) found:</value>
+  </data>
+  <data name="SimilarFeedbacksFoundValidation" xml:space="preserve">
+    <value>Similar feedback(s) found. Please review them before submitting. If you still want to submit, click "Submit anyway".</value>
+  </data>
+  <data name="SourcePath" xml:space="preserve">
+    <value>SourcePath</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="SubmitAnyway" xml:space="preserve">
+    <value>Submit anyway</value>
+  </data>
+  <data name="SubmitFeedback" xml:space="preserve">
+    <value>Submit feedback</value>
+  </data>
+  <data name="SubmitNewFeedback" xml:space="preserve">
+    <value>Submit new feedback</value>
+  </data>
+  <data name="SubmittingFeedbackLoadingMessage" xml:space="preserve">
+    <value>Submitting your feedback… We’re saving it and checking for similar resolved items. For questions, we may also generate an AI-assisted answer. This can take a moment.</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>(unknown)</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="UpdateLinkedFaqWithThisAnswer" xml:space="preserve">
+    <value>Update existing FAQ item with this answer</value>
+  </data>
+  <data name="UploadFileAndImport" xml:space="preserve">
+    <value>Upload a file and import</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning:</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="WelcomeToApp" xml:space="preserve">
+    <value>Welcome to Feedback</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Working…</value>
+  </data>
+  <data name="YourRating" xml:space="preserve">
+    <value>Your rating</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="LongDescription" xml:space="preserve">
+    <value>Long description</value>
+  </data>
+  <data name="AllFeedbackShort" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="AppsShort" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="FaqShort" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="ImportKnowledgeShort" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="MyFeedbackShort" xml:space="preserve">
+    <value>My</value>
+  </data>
+  <data name="MyRatingsShort" xml:space="preserve">
+    <value>Ratings</value>
+  </data>
+  <data name="RagAdminShort" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="TestTitle" xml:space="preserve">
+    <value>Test environment. This application is used for testing and may contain bugs.</value>
+  </data>
+  <data name="CommentNotificationSubject" xml:space="preserve">
+    <value>New comment on feedback</value>
+  </data>
+  <data name="CommentNotificationBodyApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="CommentNotificationBodyAuthor" xml:space="preserve">
+    <value>Comment author</value>
+  </data>
+  <data name="CommentNotificationBodyTime" xml:space="preserve">
+    <value>Comment time</value>
+  </data>
+  <data name="CommentNotificationBodyText" xml:space="preserve">
+    <value>Comment text</value>
+  </data>
+  <data name="CommentNotificationBodyDetails" xml:space="preserve">
+    <value>Feedback details</value>
+  </data>
+  <data name="CommentNotificationBodyUnknownApplication" xml:space="preserve">
+    <value>(unknown application)</value>
+  </data>
+  <data name="ResolverNotificationSubjectPrimary" xml:space="preserve">
+    <value>[BUG - PRIMARY]</value>
+  </data>
+  <data name="ResolverNotificationSubjectTeam" xml:space="preserve">
+    <value>[BUG - TEAM]</value>
+  </data>
+  <data name="ResolverNotificationBodyPrimaryResponsibility" xml:space="preserve">
+    <value>This issue is primarily your application's responsibility.</value>
+  </data>
+  <data name="ResolverNotificationBodyTeamResponsibility" xml:space="preserve">
+    <value>This issue is in your colleague's application.</value>
+  </data>
+  <data name="ResolverNotificationBodyApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="ResolverNotificationBodySubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="ResolverNotificationBodyDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ResolverNotificationBodyCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="ResolverNotificationBodyButton" xml:space="preserve">
+    <value>Open feedback details</value>
+  </data>
+  <data name="AppUserResolvedNotificationSubject" xml:space="preserve">
+    <value>resolved</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyHello" xml:space="preserve">
+    <value>Hello,</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyMarked" xml:space="preserve">
+    <value>Your record ({0}) has been marked as resolved.</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodySubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyResolved" xml:space="preserve">
+    <value>Resolved</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyButton" xml:space="preserve">
+    <value>Open feedback details</value>
+  </data>
+  <data name="AppUserResolvedNotificationBodyPersists" xml:space="preserve">
+    <value>If the issue persists, please reply in the application or reopen the record.</value>
+  </data>
+  <data name="InterestedUserResolvedNotificationBodyMarked" xml:space="preserve">
+    <value>A feedback you are interested in has been marked as resolved.</value>
+  </data>
+  <data name="InterestedUserResolvedNotificationBodyStillExperiencing" xml:space="preserve">
+    <value>If you are still experiencing this issue, please reply in the application or reopen the record.</value>
+  </data>
+  <data name="ShortDescription" xml:space="preserve">
+    <value>Short description</value>
+  </data>
+  <data name="Discussion" xml:space="preserve">
+    <value>Discussion</value>
+  </data>
+  <data name="CommentPlaceholder" xml:space="preserve">
+    <value>Enter a comment...</value>
+  </data>
+  <data name="AddComment" xml:space="preserve">
+    <value>Add Comment</value>
+  </data>
+  <data name="CommentEditWindow" xml:space="preserve">
+    <value>Edit/Delete Time Window</value>
+  </data>
+  <data name="NoComments" xml:space="preserve">
+    <value>No comments yet.</value>
+  </data>
+  <data name="ContinueWithoutWaiting" xml:space="preserve">
+    <value>Continue without waiting</value>
+  </data>
+  <data name="AutoAnswerReadyBadgeTitle" xml:space="preserve">
+    <value>New automatic answers</value>
+  </data>
+  <data name="AutoAnswerReadySubject" xml:space="preserve">
+    <value>Automatic answer is ready</value>
+  </data>
+  <data name="AutoAnswerReadyBodyIntro" xml:space="preserve">
+    <value>Your question has been answered automatically. Open details to view the answer.</value>
+  </data>
+  <data name="AutoAnswerReadyBodyApplication" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="AutoAnswerReadyBodySubject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="AutoAnswerReadyBodyCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="AutoAnswerReadyBodyButton" xml:space="preserve">
+    <value>Open feedback details</value>
+  </data>
+  <data name="AiLlmJob" xml:space="preserve">
+    <value>AI-LLM job</value>
+  </data>
+  <data name="LlmJobStatusQueued" xml:space="preserve">
+    <value>Queued</value>
+  </data>
+  <data name="LlmJobStatusRunning" xml:space="preserve">
+    <value>Processing…</value>
+  </data>
+  <data name="LlmJobSince" xml:space="preserve">
+    <value>since</value>
+  </data>
+  <data name="LlmJobStatusCompletedNoAnswer" xml:space="preserve">
+    <value>Completed without answer</value>
+  </data>
+  <data name="LlmJobStatusAnswerFound" xml:space="preserve">
+    <value>Answer found</value>
+  </data>
+  <data name="LlmJobStatusCompletedPropagating" xml:space="preserve">
+    <value>Completed, answer is still propagating</value>
+  </data>
+  <data name="LlmJobStatusFailed" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="LlmJobStatusCanceled" xml:space="preserve">
+    <value>Canceled</value>
+  </data>
+  <data name="LlmJobs" xml:space="preserve">
+    <value>LLM jobs</value>
+  </data>
+  <data name="LlmJobsHelp" xml:space="preserve">
+    <value>Queued and running jobs are persisted in the database and can be canceled here.</value>
+  </data>
+  <data name="LlmJobsCreated" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="LlmJobsRequester" xml:space="preserve">
+    <value>Requester</value>
+  </data>
+  <data name="LlmJobsQuestion" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="LlmJobsStarted" xml:space="preserve">
+    <value>Started</value>
+  </data>
+  <data name="LlmJobsFinished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="ConfirmCancelLlmJob" xml:space="preserve">
+    <value>Cancel this job?</value>
+  </data>
+  <data name="NoLlmJobs" xml:space="preserve">
+    <value>No LLM jobs.</value>
+  </data>
+</root>
